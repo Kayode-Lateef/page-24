@@ -405,7 +405,7 @@ input{
   /* On screens that are 600px or less, */
   @media screen and (max-width: 600px) {
     #sidebar {
-        margin-left: -250px;
+        margin-left: -300px;
     }
     #sidebar.active {
         margin-left: 0;
@@ -414,7 +414,7 @@ input{
         width: 100%;
     }
     #content.active {
-        width: calc(100% - 250px);
+        width: calc(100% - 300px);
     }
     #sidebarCollapse span {
         display: none;
