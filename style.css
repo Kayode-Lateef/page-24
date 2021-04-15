@@ -435,7 +435,7 @@ input{
 
      @media screen and (max-width: 600px) {
     #sidebar {
-        margin-left: -200px;
+        margin-left: -410px;
     }
     #sidebar.active {
         margin-left: 0;
@@ -444,7 +444,7 @@ input{
         width: 100%;
     }
     #content.active {
-        width: calc(100% - 200px);
+        width: calc(100% - 410px);
     }
     #sidebarCollapse span {
         display: none;
@@ -453,7 +453,7 @@ input{
 
 
 #sidebar {
-    width: 400px;
+    width: 410px;
     position: fixed;
     top: 0;
     left: 0;
@@ -466,6 +466,7 @@ input{
 
 .navbar-header{
     z-index: 1000;
+    margin-left: 50px;
 
 }
      }
