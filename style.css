@@ -435,9 +435,9 @@ input {
   .navbar-header{
       position: relative;
   }
-  button{
-      position: absolute;
-      left: 120px;
+ .navbar-btn {
+    position: absolute;
+    left: 120px;
   }
 
   #sidebar {
