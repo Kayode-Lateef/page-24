@@ -420,20 +420,20 @@ input {
     margin-left: -400px;
   }
   #sidebar.active {
-    margin-left: 0;
+    margin-left: 20px !important;
   }
   #content {
     width: 100%;
   }
   #content.active {
-    width: calc(100% - 300px);
+    width: calc(100% - 500px);
   }
   #sidebarCollapse span {
     display: none;
   }
 
   #sidebar {
-    width: 400px;
+    width: 300px;
     position: fixed;
     top: 0;
     left: 0;
