@@ -382,7 +382,6 @@ input {
     color: #fff;
     transition: all 0.3s;
   }
-
 }
 
 @media screen and (max-width: 992px) {
@@ -432,10 +431,10 @@ input {
     display: none;
   }
 
-  .navbar-header{
-      position: relative;
+  .navbar-header {
+    position: relative;
   }
- .navbar-btn {
+  .navbar-btn {
     position: absolute;
     left: 120px;
   }
