@@ -354,7 +354,7 @@ input {
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   #sidebar {
     margin-left: -250px;
   }
@@ -426,7 +426,7 @@ input {
     width: 100%;
   }
   #content.active {
-    width: calc(100% - 400px);
+    width: calc(100% - 300px);
   }
   #sidebarCollapse span {
     display: none;
@@ -446,7 +446,6 @@ input {
 
   .navbar-header {
     z-index: 1000;
-    margin-left: 50px;
   }
 }
 
