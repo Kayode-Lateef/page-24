@@ -17,24 +17,36 @@ p {
     color: #000;
 }
 
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+
 a, a:hover, a:focus {
-    color: inherit;
+    color: white;
     text-decoration: none;
     transition: all 0.3s;
 }
 
-/* .navbar {
-    padding: 15px 10px;
-    border: none;
-    border-radius: 0;
-    margin-bottom: 40px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-} */
-
 .navbar-btn {
-    box-shadow: none;
+    color: white !important;
+    box-shadow: none !important;
     outline: none !important;
-    border: none;
+    border: 1px solid  white !important;
+    background-color: #3F69E3 !important;
+    float: right;
+
+}
+
+.navbar-default {
+    box-shadow: none !important;
+    background-color: white !important;
+    border: none !important;
+    margin: 0;
+    padding: 0px 10px !important;
+    /* background-color: #3F69E3 !important; */
+
+
 }
 
 /* .line {
@@ -63,7 +75,7 @@ a, a:hover, a:focus {
     margin-left: -250px;
 }
 
-#sidebar .sidebar-header {
+#sidebar .sidebar-header{
     padding: 20px;
     background:  #3F69E3;
 }
@@ -71,12 +83,12 @@ a, a:hover, a:focus {
 
 #sidebar ul.components {
     padding: 20px 0;
-    /* border-bottom: 1px solid #47748b; */
 }
 
 
 #sidebar ul li .active{
     background: #fff;
+    color: #3F69E3 ;
 }
 
 #sidebar ul li a {
@@ -88,16 +100,22 @@ a, a:hover, a:focus {
 
 #sidebar ul li a > span{
     margin-right: 30px;
+
 }
 
 
 #sidebar ul li a:hover {
-    color:  #3F69E3;
-    background: #fff;
+    color:  #3F69E3 !important;
+    background: #fff !important;
 }
 
+/* #sidebar ul li.active:hover{
+    color:  #3F69E3 !important;
+    background: #fff;
+} */
+
 #sidebar ul li.active > a, a[aria-expanded="true"] {
-    color:  #3F69E3;
+    color:  #3F69E3 !important;
     background: #fff;
 }
 
@@ -138,7 +156,7 @@ ul.CTAs a {
 }
 a.download {
     background: #fff;
-    color:  #3F69E3;
+    /* color:  #3F69E3; */
 }
 a.article, a.article:hover {
     background:  #3F69E3 !important;
@@ -151,7 +169,7 @@ a.article, a.article:hover {
 ----------------------------------------------------- */
 #content {
     width: calc(100% - 250px);
-    padding: 40px;
+    padding: 20px;
     min-height: 100vh;
     transition: all 0.3s;
     position: absolute;
@@ -363,7 +381,7 @@ input{
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
     }
@@ -379,12 +397,11 @@ input{
     #sidebarCollapse span {
         display: none;
     }
+
+    
 }
- */
 
- /* On screens that are 992px or less, */
-
-  @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
     #sidebar {
         margin-left: -250px;
     }
@@ -400,12 +417,98 @@ input{
     #sidebarCollapse span {
         display: none;
     }
-  }
+
+    
+    #sidebar {
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: 999;
+        background:  #3F69E3;
+        color: #fff;
+        transition: all 0.3s;
+    }
+    
+  } 
+
+     @media screen and (max-width: 600px) {
+    #sidebar {
+        margin-left: -200px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 200px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+
+
+
+#sidebar {
+    width: 400px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background:  #3F69E3;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.navbar-header{
+    z-index: 1000;
+
+}
+     }
+
+  /* On screens that are 992px or less, */
+
+  /* @media screen and (max-width: 992px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #content {
+        width: 100%;
+    }
+    #content.active {
+        width: calc(100% - 250px);
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+
+
+
+    #sidebar {
+        width: 250px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        z-index: 999;
+        background:  #3F69E3;
+        color: #fff;
+        transition: all 0.3s;
+    }
+
+  } */
   
   /* On screens that are 600px or less, */
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
     #sidebar {
-        margin-left: -300px;
+        margin-left: -200px;
     }
     #sidebar.active {
         margin-left: 0;
@@ -414,16 +517,27 @@ input{
         width: 100%;
     }
     #content.active {
-        width: calc(100% - 300px);
+        width: calc(100% - 200px);
     }
     #sidebarCollapse span {
         display: none;
     }
-  }
 
 
 
+#sidebar {
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background:  #3F69E3;
+    color: #fff;
+    transition: all 0.3s;
+}
 
+  } */
 
 
   /* Responsive columns */
