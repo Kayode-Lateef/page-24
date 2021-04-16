@@ -127,36 +127,6 @@ a[aria-expanded="true"]::before {
 }
 
 
-
-/* ---------------------------- */
-/* ul ul a {
-  font-size: 0.9em !important;
-  padding-left: 30px !important;
-  background: #3f69e3;
-}
-
-ul.CTAs {
-  padding: 20px;
-}
-
-ul.CTAs a {
-  text-align: center;
-  font-size: 0.9em !important;
-  display: block;
-  border-radius: 5px;
-  margin-bottom: 5px;
-}
-a.download {
-  background: #fff;
-  color:  #3F69E3;
-}
-a.article,
-a.article:hover {
-  background: #3f69e3 !important;
-  color: #fff !important;
-} */
-/* ------------------------------------------ */
-
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
