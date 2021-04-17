@@ -87,15 +87,20 @@ footer p {
   }
 
   .social_footer_ul_1 li{
-	padding-left: 20px;
+	padding-left: 2px;
 	padding-top: 10px;
 	float: left;
   }
 
   .social_footer_ul_1 li a{
 	color: #ccc;
-	padding: 8px;
+	padding: 4px;
+  font-size: 1.3em;
   }
+
+  .social_footer_ul_1 li a i{
+    font-size: 1.8em;
+    }
   /* --------------- */
 
 .social_footer_ul {
