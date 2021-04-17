@@ -40,11 +40,12 @@ a:focus {
 }
 
 .navbar-default {
-  box-shadow: none !important;
-  background-color: white !important;
-  border: none !important;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: none; */
+  background-color: #fafafa !important;
+  border: none;
   margin: 0;
-  padding: 0px 10px !important;
+  padding: 0px 4px !important;
   /* background-color: #3F69E3 !important; */
 }
 
