@@ -18,3 +18,9 @@
   });
 })(jQuery);
 
+// $('#play-pause').click(function(){
+//   if ( $('#video-over').css('visibility') == 'hidden' )
+//     $('#video-over').css('visibility','visible');
+//   else
+//     $('#video-over').css('visibility','hidden');
+// });
