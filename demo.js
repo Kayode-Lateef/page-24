@@ -11,21 +11,10 @@
     $("#sidebar").toggleClass("active");
     // $('.collapse.in').toggleClass('in');
     // $(".logo").css("display", "block");
-    // $(".logo").toggle();
-    if( $(".logo").css('visibility') == 'hidden' )
-    $(".logo").css('visibility','visible');
+    if( $(".logo").css('visibility') == 'hidden')
+    $(".logo").css({opacity: 1.0, visibility: "visible"}).animate({opacity: 0}, 1200);
     else
-    $(".logo").css('visibility','hidden');
-    //  $(".logo").show();
-        // $(".logo").css("display", "block");
-
-
+    $(".logo").css({opacity: 0.0, visibility: "hidden"}).animate({opacity: 1}, 1200);
   });
 })(jQuery);
 
-// $('#play-pause').click(function(){
-//   if ( $('#video-over').css('visibility') == 'hidden' )
-//     $('#video-over').css('visibility','visible');
-//   else
-//     $('#video-over').css('visibility','hidden');
-// });
