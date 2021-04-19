@@ -78,7 +78,7 @@ body {
     outline: none;
     color: black;
     background-color: #fff;
-    margin-left: 150px !important;
+    margin-left: 180px !important;
   }
   
   .search-input {
@@ -93,8 +93,9 @@ body {
   
   .input-list i {
     position: absolute;
-    left: 170px;
-    top: 11px;
+    left: 190px;
+    top: 8px;
+    font-size: 16px;
     color: gray;
   }
 
