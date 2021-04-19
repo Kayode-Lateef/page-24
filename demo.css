@@ -4237,6 +4237,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    padding-left: 0 !important;
   }
   .navbar-toggler {
     padding: 0.25rem 0.75rem;
@@ -9987,7 +9988,7 @@
     }
   }
   #sidebar ul li {
-    font-size: 16px;
+    font-size: 18px;
   }
   #sidebar ul li > ul {
     margin-left: 10px;
