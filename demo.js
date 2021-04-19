@@ -17,10 +17,3 @@
     $(".logo").css({opacity: 0.0, visibility: "hidden"}).animate({opacity: 1}, 1200);
   });
 })(jQuery);
-
-// $('#play-pause').click(function(){
-//   if ( $('#video-over').css('visibility') == 'hidden' )
-//     $('#video-over').css('visibility','visible');
-//   else
-//     $('#video-over').css('visibility','hidden');
-// });
