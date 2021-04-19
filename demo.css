@@ -4173,6 +4173,8 @@
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0.5rem 1rem;
+    background-color: #fff;
+    margin-top: -30px;
   }
   .navbar > .container,
   .navbar > .container-fluid {
@@ -9930,9 +9932,11 @@
     transition: all 0.3s;
   }
   #sidebar.active {
-    min-width: 80px;
-    max-width: 80px;
+    min-width: 100px;
+    max-width: 100px;
     text-align: center;
+
+
   }
   #sidebar.active ul.components li {
     font-size: 14px;
@@ -9968,6 +9972,8 @@
     }
   }
   #sidebar ul.components {
+
+    /* margin-top: 80px; */
     padding: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -9990,7 +9996,7 @@
     font-size: 14px;
   }
   #sidebar ul li a {
-    padding: 10px 30px;
+    padding: 20px 30px;
     display: block;
     color: #fff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
