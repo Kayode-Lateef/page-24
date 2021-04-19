@@ -7,6 +7,7 @@ footer {
   background-color: #3F69E3;
   min-height: 250px;
   padding: 10px 0px 25px 0px;
+  /* display: block; */
 }
 .pt2 {
   padding-top: 40px;
