@@ -2,21 +2,19 @@ body {
   background: #fafafa;
 }
 
-#sidebar ul.components{
+#sidebar ul.components {
   margin-top: 80px;
 }
-#sidebar.active ul{
+#sidebar.active ul {
   margin-top: 30px;
 }
-
 
 #sidebar ul li a:hover {
   color: #3f69e3 !important;
   background: #fff !important;
 }
 
-
-.logo{
+.logo {
   position: absolute;
   left: 0px;
   top: 24px;
@@ -24,16 +22,14 @@ body {
   transition: opacity 0.5s ease-in;
 }
 
-#sidebar button{
+#sidebar button {
   float: right;
   margin-right: 6px;
 }
 
-#sidebar.active button{
+#sidebar.active button {
   float: none !important;
 }
-
-
 
 /* ---------------------------------------------------
     CONTENT STYLE
@@ -52,54 +48,50 @@ body {
   width: 100%;
 }
 
-
-
-
 .top-btn {
-    border-radius: 5px;
-    border: none;
-    padding: 5px 10px;
-    color: gray;
-    /* background-color: #f1f1f1; */
-    background-color: #fff;
-    box-shadow: 0 4px 8px 0 #f1f1f1;
-    font-size: 1.3em;
-  }
-  
-  .top-btn > span {
-    margin-right: 8px;
-  }
-  
-  input {
-    border-radius: 20px;
-    border: 1px solid #E3E9FA;
-    width: 400px;
-    padding: 5px;
-    outline: none;
-    color: black;
-    background-color: #fff;
-    margin-left: 180px !important;
-  }
-  
-  .search-input {
-    padding-left: 40px;
-    font-size: 1.3em;
-  
-  }
-  
-  .input-list {
-    position: relative;
-  }
-  
-  .input-list i {
-    position: absolute;
-    left: 190px;
-    top: 8px;
-    font-size: 16px;
-    color: gray;
-  }
+  border-radius: 5px;
+  border: none;
+  padding: 5px 10px;
+  color: gray;
+  /* background-color: #f1f1f1; */
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 #f1f1f1;
+  font-size: 1.3em;
+}
 
-  /* ----------------------------------------------- 
+.top-btn > span {
+  margin-right: 8px;
+}
+
+input {
+  border-radius: 20px;
+  border: 1px solid #e3e9fa;
+  width: 400px;
+  padding: 5px;
+  outline: none;
+  color: black;
+  background-color: #fff;
+  margin-left: 180px !important;
+}
+
+.search-input {
+  padding-left: 40px;
+  font-size: 1.3em;
+}
+
+.input-list {
+  position: relative;
+}
+
+.input-list i {
+  position: absolute;
+  left: 190px;
+  top: 8px;
+  font-size: 16px;
+  color: gray;
+}
+
+/* ----------------------------------------------- 
             COLUMN STYLING
 ------------------------------------------------ */
 
@@ -140,22 +132,77 @@ body {
   align-items: center;
 }
 
-
-.card-bg-1{
-  background-image: radial-gradient(ellipse at top,  #984ed4, #964ad3, #9447d2, #9143d1, #8f3fd0, #8c3acf, #8835cd, #852fcc, #7f27ca, #791dc8, #7312c7, #6d01c5);
+.card-bg-1 {
+  background-image: radial-gradient(
+    ellipse at top,
+    #984ed4,
+    #964ad3,
+    #9447d2,
+    #9143d1,
+    #8f3fd0,
+    #8c3acf,
+    #8835cd,
+    #852fcc,
+    #7f27ca,
+    #791dc8,
+    #7312c7,
+    #6d01c5
+  );
   /* background: radial-gradient(ellipse at top, #984ed4, transparent), radial-gradient(ellipse at bottom, #6d01c5, transparent); */
 }
 
-.card-bg-2{
-  background-image: radial-gradient(ellipse at top,  #ff72a2, #ff6a9d, #ff6297, #ff5992, #ff4f8c, #ff4989, #ff4385, #ff3d82, #ff3b81, #ff3980, #ff377e, #ff357d);
+.card-bg-2 {
+  background-image: radial-gradient(
+    ellipse at top,
+    #ff72a2,
+    #ff6a9d,
+    #ff6297,
+    #ff5992,
+    #ff4f8c,
+    #ff4989,
+    #ff4385,
+    #ff3d82,
+    #ff3b81,
+    #ff3980,
+    #ff377e,
+    #ff357d
+  );
 }
 
-.card-bg-3{
-  background-image: radial-gradient(ellipse at top,  #72bfff, #6abbff, #61b8ff, #58b4ff, #4eb0ff, #49aeff, #44acff, #3eaaff, #3daaff, #3ba9ff, #3aa9ff, #38a8ff);
+.card-bg-3 {
+  background-image: radial-gradient(
+    ellipse at top,
+    #72bfff,
+    #6abbff,
+    #61b8ff,
+    #58b4ff,
+    #4eb0ff,
+    #49aeff,
+    #44acff,
+    #3eaaff,
+    #3daaff,
+    #3ba9ff,
+    #3aa9ff,
+    #38a8ff
+  );
 }
 
-.card-bg-4{
-  background-image: radial-gradient(ellipse at top,  #ff9c72, #ff9669, #ff9060, #ff8a56, #ff844d, #ff8148, #ff7e43, #ff7b3e, #ff7a3d, #ff793b, #ff783a, #ff7738);
+.card-bg-4 {
+  background-image: radial-gradient(
+    ellipse at top,
+    #ff9c72,
+    #ff9669,
+    #ff9060,
+    #ff8a56,
+    #ff844d,
+    #ff8148,
+    #ff7e43,
+    #ff7b3e,
+    #ff7a3d,
+    #ff793b,
+    #ff783a,
+    #ff7738
+  );
 }
 
 .column-2,
@@ -178,7 +225,7 @@ body {
   color: white;
   font-size: 10px;
   margin-left: auto;
-  background-color: #7C19CB;
+  background-color: #7c19cb;
 }
 
 .btn-card-2 {
@@ -239,7 +286,6 @@ body {
 
 .card-details > p {
   margin-bottom: 0;
-
 }
 
 .card-location-p {
@@ -248,7 +294,8 @@ body {
   margin-bottom: 40px;
 }
 
-.card-details > p, .card-location-p{
+.card-details > p,
+.card-location-p {
   color: white;
 }
 
@@ -257,28 +304,17 @@ body {
   font-size: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.profile-photo {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: transparent;
+  /* transition: all 0.3s ease; */
+  margin-right: 10px;
+}
 
 /* Responsive columns */
 @media screen and (max-width: 800px) {
