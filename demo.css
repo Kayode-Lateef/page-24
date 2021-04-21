@@ -10014,8 +10014,11 @@
     color: #fff;
   }
   #sidebar ul li.active > a {
-    background: 0 0;
-    color: #fff;
+    /* background: 0 0;
+    color: #fff; */
+      font-weight: bold;
+      background: #fff;
+      color: #3f69e3;
   }
   @media (max-width: 991.98px) {
     #sidebar {
@@ -10053,14 +10056,14 @@
       display: none;
     }
   } */
-  /* #content {
+  #content {
     width: 100%;
     padding: 0;
     min-height: 100vh;
     -webkit-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-  } */
+  }
   .btn.btn-primary {
     background: #3e64ff;
     border-color: #3e64ff;
