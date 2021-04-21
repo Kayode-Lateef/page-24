@@ -34,16 +34,21 @@ body {
 /* ---------------------------------------------------
     CONTENT STYLE
 ----------------------------------------------------- */
-#content {
-  width: 100%;
+
+
+/* #content { */
+ /* - width: 100%; */
   /* width: calc(100% - 250px); */
-  padding: 0px;
-  min-height: 100vh;
-  transition: all 0.3s;
+ /* - padding: 0px; */
+ /* - min-height: 100vh; */
+ /* - transition: all 0.3s; */
   /* position: fixed;
   top: 0;
   right: 0; */
-}
+/* } */
+
+
+
 #content.active {
   width: 100%;
 }
