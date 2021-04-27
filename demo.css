@@ -9963,13 +9963,17 @@
     padding: 10px 30px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
-    transition: 0.3s;
+    /* transition: 0.3s; */
+    transition: opacity 0.45s ease-in-out;
+
   }
   @media (prefers-reduced-motion: reduce) {
     #sidebar .logo {
       -webkit-transition: none;
       -o-transition: none;
-      transition: none;
+      /* transition: none; */
+      transition: opacity 0.45s ease-in-out;
+
     }
   }
   #sidebar ul.components {
@@ -10014,8 +10018,6 @@
     color: #fff;
   }
   #sidebar ul li.active > a {
-    /* background: 0 0;
-    color: #fff; */
       font-weight: bold;
       background: #fff;
       color: #3f69e3;
@@ -10054,9 +10056,9 @@
   /* @media (max-width: 991.98px) {
     .footer {
       display: none;
-    }
-  } */
-  #content {
+    } 
+  }*/
+  #content{
     width: 100%;
     padding: 0;
     min-height: 100vh;

@@ -57,6 +57,8 @@ body {
   width: 100%;
 }
 
+
+
 .top-btn {
   border-radius: 5px;
   border: none;
@@ -307,7 +309,12 @@ font-weight: 600;
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
- 
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+}
 }
 
 /* // Small devices (landscape phones, less than 768px) */
