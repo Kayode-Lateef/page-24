@@ -8,7 +8,7 @@
     />
     <title>Page-24</title>
 
-        <!-- Font awesome link -->
+     <!-- Font awesome link -->
   <script src="https://kit.fontawesome.com/98e9736744.js" crossorigin="anonymous"></script>
   <!-- Font awesome link -->
    
@@ -16,10 +16,9 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="demo.css" >
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="css/bootstrap.css" >
+    <!-- <link rel="stylesheet" href="css/footer.css"> -->
+    <link rel="stylesheet" href="css/custom.css">
 
 
      <!-- Scrollbar Custom CSS -->
@@ -48,8 +47,7 @@
   <body>
     <div class="wrapper d-flex align-items-stretch">
       <nav id="sidebar" class="active">
-        <h3>  <a href="" class="logo"> <img src="Arc-Open-Space-App-logo.png" alt="" width="170"></a></h3>
-       <!-- <h3><a href="#" class="logo"><img src="Arc-Open-Space-App-logo.png" alt="" width="170"></a> </h3>  -->
+        <h3>  <a href="" class="logo"> <img src="images/Arc-Open-Space-App-logo.png" alt="" width="170"></a></h3>
       
        <button style="margin-top: 35px;" type="button" id="sidebarCollapse" class="btn btn-primary">
         <i class="fa fa-bars"></i>
@@ -58,13 +56,13 @@
         <ul class="list-unstyled components mb-5">
          
           <li class="active">
-            <a class="nav-link" href="#menu" ><span><i class="fa fa-search"></i></span>Explore</a>
+            <a class="nav-link" href="#" ><span><i class="fa fa-search"></i></span>Explore</a>
             
         </li>
 
          
           <li>
-            <a nav-link href="#menu"><span><i class="fa fa-briefcase"></i></span>Job Listings</a> 
+            <a nav-link href="#"><span><i class="fa fa-briefcase"></i></span>Job Listings</a> 
         </li>
 
           <li>
@@ -89,7 +87,7 @@
             <script>
               document.write(new Date().getFullYear());
             </script>
-            All rights reserved |
+            All rights reserved | Arc Open Space
             <i class="icon-heart" aria-hidden="true"></i> by
             <a href="" target="_blank"></a>
           </p>
@@ -97,14 +95,17 @@
       </nav>
 
       <div id="content" class="p-4 p-md-5">
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav style=" margin-top: 10px;" class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
+
+            
             <!-- <button type="button" id="sidebarCollapse" class="btn btn-primary">
               <i class="fa fa-bars"></i>
               <span class="sr-only">Toggle Menu</span>
             </button> -->
+           
             <!-- <button
-              class="btn btn-dark d-inline-block d-lg-none ml-auto"
+              class="btn btn-primary d-inline-block d-lg-none ml-auto"
               type="button"
               data-toggle="collapse"
               data-target="#navbarSupportedContent"
@@ -114,6 +115,20 @@
             >
               <i class="fa fa-bars"></i>
             </button> -->
+
+            <button
+            class="btn btn-primary d-inline-block d-lg-none ml-auto" id="btnToggle"
+            type="button"
+            data-toggle="sidebar"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars"></i>
+          </button>
+
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
               <h2 style="color: #010D3F; margin-left: -10px; margin-right: 75px; font-weight: 700; font-size: 28px;
@@ -121,37 +136,227 @@
 
               <ul class="nav navbar-nav ml-auto">
                 <li style="margin-right: 20px;"  class="nav-item input-list">
-                  <!-- <a class="nav-link" href="#">Home</a> -->
                   <input class="search-input"  type="search" name="" id="" placeholder="Search" />  <i class="fa fa-search" aria-hidden="true"></i> 
 
                 </li>
                 <li style="margin-right: 5px;" class="nav-item">
-                  <!-- <a class="nav-link" href="#">About</a> -->
-                   <button  class="top-btn">
+                   <button type="button" data-toggle="modal" data-target="#locationModalCenter"  class="top-btn">
                             <span><i class="fas fa-map-marker-alt"></i></span>Location
                           </button>
                 </li>
                 <li class="nav-item">
-                  <!-- <a class="nav-link" href="#">Portfolio</a> -->
-                  <button class="top-btn">
-                    <span><i class="fa fa-filter" aria-hidden="true"></i></span> Filter
+                  <button type="button" data-toggle="modal" data-target="#filterModalCenter" class="top-btn">
+                    <span ><i class="fa fa-filter" aria-hidden="true"></i></span>Filter
                   </button>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Contact</a>
-                </li> -->
               </ul>
             </div>
           </div>
         </nav>
         
 
+<!-- Modal filter -->
+  
+<div class="modal col-sm-4" id="filterModalCenter" tabindex="-1" role="dialog" aria-labelledby="filterModalCenteTitle" aria-hidden="true" style="margin: 0 auto;">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        
+        <h4 class="modal-title" id="filterModalLongTitle">Filter</h4>
+
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&#706;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+<div class="modal-contents">
+
+
+              <div class="col-12 modal-input">
+                <input class="explore-modal-input"  type="search" name="" id="" placeholder="Search" /><i class="fa fa-search" aria-hidden="true"></i> 
+              </div>
+
+
+          <div class="col-12" >      
+            <div class="modal-p">
+              <p>Rating</p> 
+            </div>       
+                 <div  class="modal-icons">
+                 <input type="checkbox" name="" id=""> 
+                  <i class="fa fa-star" aria-hidden="true"></i> 
+                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>                  
+                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                </div>
+                <div  class="modal-icons">
+                  <input type="checkbox" checked name="" id=""> 
+                  <i class="fa fa-star" aria-hidden="true"></i> 
+                  <i class="fa fa-star" aria-hidden="true"></i>                  
+                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                 </div>
+                 <div  class="modal-icons">
+                  <input type="checkbox" name="" id=""> 
+                  <i class="fa fa-star" aria-hidden="true"></i> 
+                  <i class="fa fa-star" aria-hidden="true"></i>                  
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                 </div>
+                 <div  class="modal-icons">
+                  <input type="checkbox" name="" id=""> 
+                  <i class="fa fa-star" aria-hidden="true"></i> 
+                  <i class="fa fa-star" aria-hidden="true"></i>                  
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                 </div>
+                         
+                  <div class="modal-p">
+                    <p>Hourly Rate</p> 
+                  </div>
+                  <div class="modal-icons">
+                    <input type="checkbox" name="" id=""><span> Less than £10 </span>
+                      </div>
+                      <div  class="modal-icons">
+                        <input type="checkbox" checked name="" id=""><span>£10-£20</span>
+                      </div>
+                      <div  class="modal-icons">
+                        <input type="checkbox" name="" id=""><span>£20-£30</span>
+                      </div>                      
+                      <div  class="modal-icons">
+                        <input type="checkbox" checked name="" id=""><span>More than £30</span>
+                      </div>                        
+                     
+                      <div id="modal-filter-button">
+                          <button  type="submit" class="btn-done btn-block">DONE</button> 
+                        </div>       
+</div>
+
+        
+              
+     </div>      
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-- MODALS Filter ENDS -->
+
+<!-- Modal Location -->
+  
+<div class="modal col-sm-4" id="locationModalCenter" tabindex="-1" role="dialog" aria-labelledby="locationModalCenteTitle" aria-hidden="true" style="margin: 0 auto;">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        
+        <h4 class="modal-title" id="locationModalLongTitle">Location</h4>
+
+        <button type="button" id="close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&#706;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <div class="modal-contents">
+
+        
+
+        <div class="col-12 modal-input">
+          <input class="explore-modal-input"  type="search" name="" id="" placeholder="Search" /><i class="fa fa-search" aria-hidden="true"></i> 
+        </div>
+
+
+          <div class="col-12" > 
+            <div class="modal-p">
+              <p>Location</p> 
+            </div> 
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>London ( Greater London)</span>
+            </div>      
+
+            <div class="modal-icons">
+              <input type="checkbox" checked name="" id=""><span>Reading (South East)</span>
+            </div> 
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Oxford & Cammbridge (South east )</span>
+            </div>
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Canterbury ( South East)</span>
+            </div>  
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Southampton ( South East)</span>
+            </div>
+            
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Dover & Folkestone ( South East)</span>
+            </div> 
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Brighton ( South East)</span>
+            </div>             
+            
+            <div class="modal-icons">
+              <input type="checkbox" checked name="" id=""><span>Norwich ( East England )</span>
+            </div> 
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Bedford ( East England)</span>
+            </div> 
+
+            <div class="modal-icons">
+              <input type="checkbox" checked name="" id=""><span>Peterborough ( East England)</span>
+            </div> 
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Luton ( East England )</span>
+            </div> 
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Glasgow ( Scotland)</span>
+            </div> 
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Edinburgh (Scotland )</span>
+            </div>
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Aberdeen ( Scotland) </span>
+            </div>
+
+            <div class="modal-icons">
+              <input type="checkbox" name="" id=""><span>Belfast (Northern Ireland )</span>
+            </div>
+
+          </div>
+         
+              <div id="modal-location-button">                        
+                <button  type="submit" class="btn-done btn-block">DONE</button> 
+              </div>
+            </div>      
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+<!-- MODALS Location ENDS -->
+
+
          <!-- ------------------HIGH RATED SECTION---------------------------------------->
   
          <section  style="padding: 1px 16px">
           <p class="txt">HIGH RATED</p>
-        <!-- <div class="container"> -->
-          <!-- <div class="row"> -->
+      
             <div
         id="carouselExampleIndicators2"
         class="carousel slide"
@@ -161,9 +366,9 @@
           <div class="carousel-item active">
             <div class="row">
             <div class="column col-sm-3">
-              <div class="card card-bg-1" style="background-image: url('bg-1.png')">
+              <div class="card card-bg-1" style="background-image: url('/images/bg-1.png')">
                <div class="card-profile">  
-                <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
               <div class="card-details">
                 <p>Michelle Price </p>
                 <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -184,9 +389,9 @@
             </div>
 
             <div class="column col-sm-3">
-              <div class="card card-bg-1" style="background-image: url('bg-4.png')">
+              <div class="card card-bg-1" style="background-image: url('/images/bg-4.png')">
                 <div class="card-profile">
-                  <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                  <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                 <div class="card-details">
                   <p>Michelle Price </p>
                   <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -207,9 +412,9 @@
             </div>
 
             <div class="column col-sm-3">
-              <div class="card card-bg-1" style="background-image: url('bg-2.png')">
+              <div class="card card-bg-1" style="background-image: url('/images/bg-2.png')">
                 <div class="card-profile">
-                  <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                  <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                 <div class="card-details">
                   <p>Michelle Price </p>
                   <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -230,9 +435,9 @@
             </div>
 
             <div class="column col-sm-3">
-              <div class="card card-bg-1" style="background-image: url('bg-3.png')">
+              <div class="card card-bg-1" style="background-image: url('/images/bg-3.png')">
                 <div class="card-profile">
-                  <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                  <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                 <div class="card-details">
                   <p>Michelle Price </p>
                   <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -256,9 +461,9 @@
           <div class="carousel-item">
             <div class="row">
               <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('bg-3.png')">
+                <div class="card card-bg-1" style="background-image: url('/images/bg-3.png')">
                   <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                    <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                  <div class="card-details">
                    <p>Michelle Price </p>
                    <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -278,9 +483,9 @@
                  </div>                          
               </div>
               <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('bg-1.png')">
+                <div class="card card-bg-1" style="background-image: url('/images/bg-1.png')">
                   <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                    <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                  <div class="card-details">
                    <p>Michelle Price </p>
                    <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -300,9 +505,9 @@
                  </div>
               </div>
               <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('bg-4.png')">
+                <div class="card card-bg-1" style="background-image: url('/images/bg-4.png')">
                   <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                    <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                  <div class="card-details">
                    <p>Michelle Price </p>
                    <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -322,9 +527,9 @@
                  </div>
               </div>
               <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('bg-2.png')">
+                <div class="card card-bg-1" style="background-image: url('/images/bg-2.png')">
                   <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                    <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                  <div class="card-details">
                    <p>Michelle Price </p>
                    <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -348,9 +553,9 @@
           <div class="carousel-item">
             <div class="row">
               <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('bg-2.png')">
+                <div class="card card-bg-1" style="background-image: url('/images/bg-2.png')">
                   <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                    <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                  <div class="card-details">
                    <p>Michelle Price </p>
                    <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -370,9 +575,9 @@
                  </div>                         
               </div>
               <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('bg-1.png')">
+                <div class="card card-bg-1" style="background-image: url('/images/bg-1.png')">
                   <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                    <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                  <div class="card-details">
                    <p>Michelle Price </p>
                    <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -392,9 +597,9 @@
                  </div>
               </div>
               <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('bg-3.png')">
+                <div class="card card-bg-1" style="background-image: url('/images/bg-3.png')">
                   <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                    <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                  <div class="card-details">
                    <p>Michelle Price </p>
                    <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -414,9 +619,9 @@
                  </div> 
               </div>
               <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('bg-2.png')">
+                <div class="card card-bg-1" style="background-image: url('/images/bg-2.png')">
                   <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+                    <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
                  <div class="card-details">
                    <p>Michelle Price </p>
                    <span><i class="fa fa-star" aria-hidden="true"></i> 
@@ -439,8 +644,7 @@
           </div>
           </div>
           </div>
-        <!-- </div> -->
-      <!-- </div> -->
+      
       </section>
 
 
@@ -454,7 +658,7 @@
       <div class="column column-2 col-sm-4">
         <div class="card-2">
           <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+            <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
               <div class="card-details">
                 <p>Harry Sahir </p> 
                 <span>
@@ -477,7 +681,7 @@
       <div class="column column-2 col-sm-4">
         <div class="card-2">
           <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+            <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
               <div class="card-details">
                 <p>Harry Sahir </p> 
                 <span>
@@ -500,7 +704,7 @@
       <div class="column column-2 col-sm-4">
         <div class="card-2">
           <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+            <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
               <div class="card-details">
                 <p>Harry Sahir </p> 
                 <span>
@@ -528,7 +732,7 @@
       <div class="column column-3 col-sm-4">
         <div class="card-2">
           <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+            <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
               <div class="card-details">
                 <p>Harry Sahir </p> 
                 <span>
@@ -550,7 +754,7 @@
       <div class="column column-3 col-sm-4">
         <div class="card-2">
           <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+            <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
               <div class="card-details">
                 <p>Harry Sahir </p> 
                 <span>
@@ -573,7 +777,7 @@
       <div class="column column-3 col-sm-4">
         <div class="card-2">
           <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('img_1.jpg')" ></div>
+            <div class="profile-photo" style="background-image: url('/images/member-1.jpg')" ></div>
               <div class="card-details">
                 <p>Harry Sahir </p> 
               <span>
@@ -610,9 +814,8 @@
       </div>
 
       <div class="col-sm-3">
-        <!-- <div class="col-sm-4 col-md col-6 col"> -->
         <h5 class="headin5_amrc col_white_amrc pt2">Useful links</h5>
-        <!--headin5_amrc-->
+        <!--heading5_amrc-->
         <ul class="footer_ul_amrc">
           <li><a href="#">How to Hire (For Client)</a></li>
           <li><a href="#">How to Find Work (for Member)</a></li>
@@ -624,9 +827,8 @@
       </div>
 
       <div class="col-sm-3">
-        <!-- <div class="col-sm-4 col-md col-6 col"> -->
         <h5 class="headin5_amrc col_white_amrc pt2">Company</h5>
-        <!--headin5_amrc-->
+        <!--heading5_amrc-->
         <ul class="footer_ul_amrc">
           <li><a href="#">About</a></li>
           <li>
@@ -639,9 +841,8 @@
       </div>
 
       <div class="col-sm-3">
-        <!-- <div class="col-sm-4 col-md col-12 col"> -->
         <h5 class="headin5_amrc col_white_amrc pt2">Resources</h5>
-        <!--headin5_amrc ends here-->
+        <!--heading5_amrc ends here-->
 
         <ul class="footer_ul_amrc">
           <li><a href="#">Trust & Safety</a></li>
@@ -659,9 +860,7 @@
       <div class="col-sm-3">
       
       </div>
-    <!-- <div class="footer-flex "> -->
       <div class="col-sm-3">
-        <!-- <h5 class="headin5_amrc col_white_amrc pt2">Find Us</h5> -->
 
         <ul class=" social_footer_ul_amrc">
           <li>  Find Us
@@ -675,18 +874,10 @@
       </div>
      
       <div class="col-sm-3">
-        <!-- <h5 class="headin5_amrc col_white_amrc pt2">Company</h5>
-
-        <ul class="social_footer_ul">
-          <li> Mobile App
-          </li>
-            <li><a href="#"><i class="fa fa-apple"></i></a></li>
-            <li><a href="#"><i class="fa fa-android"></i></a></li>
-          </ul> -->
+      
       </div>
 
       <div class="col-sm-3">
-        <!-- <h5 class="headin5_amrc col_white_amrc pt2">Mobile App</h5> -->
 
         <ul class="social_footer_ul_amrc">
           <li> Mobile App
@@ -696,7 +887,6 @@
           </ul>
       </div>
     
-    <!-- </div> -->
    
  
   <!--social_footer_ul ends here-->
@@ -706,7 +896,7 @@
 
 
   <div class="container">
-    <!--foote_bottom_ul_amrc ends here-->
+    <!--footer_bottom_ul_amrc ends here-->
 
     <ul class="social_footer_ul">
       <li>© 2021ArcOpenSpace</li>
@@ -714,7 +904,7 @@
         <a href="wottaspace.com"> Powered | wottaspace.com </a>
       </li>
       <li>
-        <a href="wottaspace.com"><img src="Arc-Open-Space-App-logo.png" alt="" width="170"></a>
+        <a href="wottaspace.com"><img src="images/Arc-Open-Space-App-logo.png" alt="" width="170"></a>
 
       </li>
     </ul>
@@ -726,6 +916,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="demo.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
