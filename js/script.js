@@ -20,9 +20,9 @@
 
 
 
-  $("#btnToggle").on("click", function () {
-    $("#sidebar").toggleClass("active");
-  });
+//   $("#btnToggle").on("click", function () {
+//     $("#sidebar").toggleClass("active");
+//   });
 
 
   $(".txt-1").on("click", function () {
