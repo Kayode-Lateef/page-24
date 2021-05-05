@@ -1,9 +1,8 @@
 body {
   background: #fafafa;
-    font-family: -apple-system, BlinkMacSystemFont,
-      "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans",
-      "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
 }
 
 #sidebar ul.components {
@@ -40,31 +39,26 @@ body {
     CONTENT STYLE
 ----------------------------------------------------- */
 
-
 /* #content { */
- /* - width: 100%; */
-  /* width: calc(100% - 250px); */
- /* - padding: 0px; */
- /* - min-height: 100vh; */
- /* - transition: all 0.3s; */
-  /* position: fixed;
+/* - width: 100%; */
+/* width: calc(100% - 250px); */
+/* - padding: 0px; */
+/* - min-height: 100vh; */
+/* - transition: all 0.3s; */
+/* position: fixed;
   top: 0;
   right: 0; */
 /* } */
-
-
 
 #content.active {
   width: 100%;
 }
 
-
-
 .top-btn {
   border-radius: 5px;
   border: none;
   padding: 5px 10px;
-  color: #C0C2C8;
+  color: #c0c2c8;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 #f1f1f1;
   font-size: 1.3em;
@@ -80,7 +74,7 @@ body {
   width: 400px;
   padding: 5px;
   outline: none;
-  color: #C0C2C8;
+  color: #c0c2c8;
   background-color: #fff;
   margin-left: 150px !important;
 }
@@ -99,7 +93,7 @@ body {
   left: 160px;
   top: 8px;
   font-size: 16px;
-  color: #C0C2C8;
+  color: #c0c2c8;
 }
 
 /* ----------------------------------------------- 
@@ -134,7 +128,7 @@ body {
 }
 
 .card-2 {
-border-radius: 8px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
   background-color: #fff;
   padding: 10px;
@@ -144,7 +138,6 @@ border-radius: 8px;
 }
 
 .card-bg-1 {
-
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
@@ -153,8 +146,6 @@ border-radius: 8px;
   margin-right: 10px;
 }
 
-
-
 .column-2,
 .column-3 {
   float: left;
@@ -162,9 +153,9 @@ border-radius: 8px;
   padding: 10px 10px;
 }
 
-.txt{
+.txt {
   font-size: 10px;
-  color: #191D2A;
+  color: #191d2a;
   font-weight: 700;
   opacity: 50%;
   text-align: left;
@@ -183,7 +174,7 @@ border-radius: 8px;
   color: white;
   font-size: 10px;
   margin-left: auto;
-  background-color: #7C19CB;
+  background-color: #7c19cb;
 }
 
 .btn-card-2 {
@@ -225,17 +216,17 @@ border-radius: 8px;
 .card-2-btn {
   border-radius: 50px;
   padding: 5px 8px;
-  border: 1px solid #C0C2C8;
-  color: #C0C2C8;
+  border: 1px solid #c0c2c8;
+  color: #c0c2c8;
 }
 
 .card-details i {
   font-size: 10px;
-  color: #FFBC53;
+  color: #ffbc53;
 }
 
 .card-details .no-fill {
-  color: #C0C2C8;
+  color: #c0c2c8;
 }
 
 .card-profile {
@@ -243,19 +234,17 @@ border-radius: 8px;
   align-items: center;
 }
 
-
-.card-2 .para-txt{
-  color: #8C8E94;
+.card-2 .para-txt {
+  color: #8c8e94;
   font-size: 12px;
   margin-bottom: 0;
 }
 
-.card-2 p .span-txt{
-font-size: 12px;
-color: #3F69E3;
-font-weight: 600;
+.card-2 p .span-txt {
+  font-size: 12px;
+  color: #3f69e3;
+  font-weight: 600;
 }
-
 
 .card-profile .card-details p {
   margin-bottom: 0;
@@ -274,11 +263,11 @@ font-weight: 600;
   color: white;
 }
 
-.card-2 .card-profile .card-details p{
+.card-2 .card-profile .card-details p {
   font-size: 16px;
-  color: #191D2A;
+  color: #191d2a;
   font-weight: 700;
-  }
+}
 
 .card-location {
   margin-right: 15px;
@@ -306,50 +295,114 @@ font-weight: 600;
   }
 }
 
-
-
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
+@media (max-width: 575.98px) {
   #sidebar ul li.active > a {
     font-size: 14px;
     font-weight: bold;
     background: #fff;
     color: #3f69e3;
-}
-#sidebar .logo{
-  display: none;
-}
-}
-
-/* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-  #sidebar .logo{
+  }
+  #sidebar .logo {
     display: none;
   }
 }
 
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  #sidebar .logo {
+    display: none;
+  }
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+
+  .collapse h2 {
+    margin-right: -75px;
+  }
+
+  .top-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .search-input {
+    width: 100px;
+    margin-left: -250px !important;
+
+    margin-right: -10px;
+  }
+
+  .search-input {
+    padding-left: 40px;
+    font-size: 1.3em;
+  }
+
+  .input-list {
+    position: relative;
+  }
+
+  .input-list i {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 16px;
+    color: #c0c2c8;
+  }
+}
+
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
- 
+@media (max-width: 991.98px) {
 }
 
 /* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
-  
+@media (max-width: 1199.98px) {
 }
 
+@media (max-width: 1280px) {
+  .top-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
 
-/* Modal styles for filter button starts */
+  .search-input {
+    margin-right: 0px;
+    margin-left: 0px !important;
+  }
+  .search-input {
+    padding-left: 40px;
+    font-size: 1.3em;
+  }
 
-.modal{
+  .input-list {
+    position: relative;
+  }
+
+  .input-list i {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 16px;
+    color: #c0c2c8;
+  }
+}
+
+/* Modal styles for filter and location button starts */
+
+.modal {
   overflow: auto !important;
 }
 
-.modal-contents{
+.modal-contents {
   background: #4169e205;
 }
 
-.modal-header{
+.modal-header {
   display: flex !important;
   justify-content: space-between !important;
   flex-direction: row-reverse !important;
@@ -357,25 +410,22 @@ font-weight: 600;
   border-bottom: none !important;
 }
 
-.modal-header .modal-title{
-  color: #1A1E2B;
+.modal-header .modal-title {
+  color: #1a1e2b;
   font-weight: 700;
   font-size: 20px;
 }
 
-.modal-header #filterModalLongTitle{
+.modal-header #filterModalLongTitle {
   margin-left: -250px !important;
-
 }
 
-.modal-header #locationModalLongTitle{
+.modal-header #locationModalLongTitle {
   margin-left: -200px !important;
-
 }
 
-
-.modal-header #close{
-  color: #1A1E2B !important;
+.modal-header #close {
+  color: #1a1e2b !important;
   margin-top: -8px !important;
   margin-left: -230px !important;
   width: 11.41px;
@@ -383,8 +433,8 @@ font-weight: 600;
   font-size: 30px;
 }
 
-.modal-header .close{
-  color: #1A1E2B !important;
+.modal-header .close {
+  color: #1a1e2b !important;
   margin-top: -8px !important;
   margin-left: -280px !important;
   width: 11.41px;
@@ -392,28 +442,27 @@ font-weight: 600;
   font-size: 30px;
 }
 
-.modal-p{
+.modal-p {
   margin-top: 20px;
   font-weight: 700;
-  color: #191D2A;
+  color: #191d2a;
   font-size: 10px;
   opacity: 50%;
   text-transform: uppercase;
 }
 
-.modal-icons{
+.modal-icons {
   display: flex;
   margin-top: 8px;
-
 }
 
-.modal-icons input[type=checkbox]{
+.modal-icons input[type="checkbox"] {
   margin-right: 5px;
   cursor: pointer;
 }
-.modal-icons i{
+.modal-icons i {
   font-size: 10px;
-  color: #FFBC53;
+  color: #ffbc53;
   margin-top: 5px;
   padding-right: 5px;
 }
@@ -424,21 +473,20 @@ font-weight: 600;
   opacity: 20%;
 }
 
-.modal-icons span{
+.modal-icons span {
   margin-top: -2px;
   font-size: 16px;
-  color: #191D2A;
+  color: #191d2a;
   font-weight: 400;
 }
 
-
-.explore-modal-input{
+.explore-modal-input {
   border-radius: 20px;
   border: 1px solid #e3e9fa;
   width: 360px;
   height: 48px;
   outline: none;
-  color: #191D2A;
+  color: #191d2a;
   opacity: 50%;
   background-color: #fff;
   padding-left: 60px;
@@ -448,9 +496,8 @@ font-weight: 600;
   margin-top: 24px;
 }
 
-.modal-input{
+.modal-input {
   position: relative;
-
 }
 
 .modal-input i {
@@ -458,30 +505,27 @@ font-weight: 600;
   left: 40px;
   top: 40px;
   font-size: 18px;
-  color: #191D2A;
+  color: #191d2a;
   opacity: 50%;
-
 }
 
-
-
-#modal-filter-button{
+#modal-filter-button {
   margin-top: 100px;
   margin-bottom: 16px;
-  background-color: #F5F7FD;
+  background-color: #f5f7fd;
 }
 
-#modal-location-button{
+#modal-location-button {
   margin-top: 16px;
   margin-bottom: 16px;
-  background-color: #F5F7FD;
+  background-color: #f5f7fd;
 }
 
-.btn-done{
-  background-color: #F5F7FD;
+.btn-done {
+  background-color: #f5f7fd;
   box-shadow: 0 2px 4px 0 #00000023;
-  color: #4169E2;
-  border: 1px solid #4169E2;
+  color: #4169e2;
+  border: 1px solid #4169e2;
   border-radius: 24px;
   padding: 16px 142.5px 15px 142.5px;
   font-size: 12px;
@@ -490,21 +534,102 @@ font-weight: 600;
   letter-spacing: 2px;
 }
 
-/* Modal styles for filter button ends */
+/* Modal styles for filter and location button ends */
 
+/* Responsiveness for Modal styles for filter and location button ends */
 
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .explore-modal-input {
+    width: 300px;
+    height: 48px;
+  }
 
+  .modal-header #filterModalLongTitle {
+    margin-left: -180px !important;
+  }
 
+  .modal-header #locationModalLongTitle {
+    margin-left: -150px !important;
+  }
 
+  .modal-header #close {
+    margin-left: -200px !important;
+  }
 
+  .modal-header .close {
+    margin-left: -210px !important;
+  }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 768px) {
+  .explore-modal-input {
+    width: 180px;
+    height: 48px;
+  }
+
+  .btn-done {
+    padding: 8px 71.5px 7.5px 71.5px;
+  }
+
+  .modal-header #filterModalLongTitle {
+    margin-left: -40px !important;
+  }
+
+  .modal-header #locationModalLongTitle {
+    margin-left: -40px !important;
+  }
+
+  .modal-header #close {
+    margin-left: -80px !important;
+  }
+
+  .modal-header .close {
+    margin-left: -80px !important;
+  }
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 1024px) {
+  .explore-modal-input {
+    width: 250px;
+    height: 48px;
+  }
+
+  .btn-done {
+    padding: 16px 71.5px 15px 71.5px;
+  }
+
+  .modal-header #filterModalLongTitle {
+    margin-left: -150px !important;
+  }
+
+  .modal-header #locationModalLongTitle {
+    margin-left: -100px !important;
+  }
+
+  .modal-header #close {
+    margin-left: -120px !important;
+  }
+
+  .modal-header .close {
+    margin-left: -180px !important;
+  }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
 
 /*footer styes*/
+
 .col_white_amrc {
   color: #fff;
 }
 footer {
   width: 100%;
-  background-color: #3F69E3;
+  background-color: #3f69e3;
   min-height: 250px;
   padding: 10px 0px 25px 0px;
   /* display: block; */
@@ -582,28 +707,28 @@ footer p {
 }
 /* ---------------- */
 .social_footer_ul_1 {
-	display: table;
-	margin: 15px 0 0 0;
-	list-style-type: none;
-  }
+  display: table;
+  margin: 15px 0 0 0;
+  list-style-type: none;
+}
 
-  .social_footer_ul_1 li{
-	padding-left: 2px;
-	padding-top: 10px;
-	float: left;
-  }
+.social_footer_ul_1 li {
+  padding-left: 2px;
+  padding-top: 10px;
+  float: left;
+}
 
-  .social_footer_ul_1 li a{
-    color: #fff;
-    border: 1px solid #fff;
-    padding: 8px;
-    border-radius: 50%;
-  }
+.social_footer_ul_1 li a {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 50%;
+}
 
-  .social_footer_ul_1 li a i{
-    font-size: 1.8em;
-    }
-  /* --------------- */
+.social_footer_ul_1 li a i {
+  font-size: 1.8em;
+}
+/* --------------- */
 
 .social_footer_ul {
   display: table;
@@ -627,16 +752,13 @@ footer p {
   text-align: center;
 }
 
-
 /* ----------------- */
 
-
-.footer-flex{
+.footer-flex {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
-
 
 .social_footer_ul_amrc {
   margin: 0px;
@@ -644,14 +766,13 @@ footer p {
   font-size: 14px;
   padding: 0px 0px 10px 0px;
   margin-top: 20px;
-
 }
 .social_footer_ul_amrc li {
   display: inline;
   color: #fff;
   font-size: 16px;
   padding: 10px 0px 0px 0px;
- margin-right: 5px;
+  margin-right: 5px;
 }
 .social_footer_ul_amrc li a {
   border: 1px solid #fff;
@@ -663,7 +784,6 @@ footer p {
   color: #fff;
   text-decoration: none;
 }
-
 
 .social_footer_ul_amrc li i {
   width: 20px;
