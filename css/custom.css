@@ -586,7 +586,7 @@ body {
 }
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .explore-modal-input {
     width: 180px !important;
     height: 48px;
@@ -602,7 +602,6 @@ body {
 
   .modal-header #locationModalLongTitle {
     margin-left: -40px !important;
-    /* background-color: red; */
   }
 
   .modal-header #close {
