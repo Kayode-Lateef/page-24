@@ -562,7 +562,7 @@ body {
 
 
 
-@media (min-width: 575.98px) {
+@media (max-width: 575.98px) {
   .explore-modal-input {
     width: 300px !important;
     height: 48px;
