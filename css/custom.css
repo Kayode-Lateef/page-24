@@ -1,3 +1,5 @@
+/* General styles */
+
 body {
   background: #fafafa;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -34,21 +36,6 @@ body {
 #sidebar.active button {
   float: none !important;
 }
-
-/* ---------------------------------------------------
-    CONTENT STYLE
------------------------------------------------------ */
-
-/* #content { */
-/* - width: 100%; */
-/* width: calc(100% - 250px); */
-/* - padding: 0px; */
-/* - min-height: 100vh; */
-/* - transition: all 0.3s; */
-/* position: fixed;
-  top: 0;
-  right: 0; */
-/* } */
 
 #content.active {
   width: 100%;
@@ -119,7 +106,7 @@ body {
   clear: both;
 }
 
-/* Style the counter cards */
+/* Style the cards */
 .card {
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -306,6 +293,39 @@ body {
   #sidebar .logo {
     display: none;
   }
+
+  .collapse ul {
+    padding-left: 5px;
+  }
+
+  .top-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .search-input {
+    margin-left: 30px;
+    margin-right: 0px !important;
+    width: 250px !important;
+  }
+
+  .search-input {
+    padding-left: 40px;
+    font-size: 1.3em;
+  }
+
+  .input-list {
+    position: relative;
+  }
+
+  .input-list i {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    font-size: 16px;
+    color: #c0c2c8;
+  }
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -320,8 +340,8 @@ body {
     color: #3f69e3;
   }
 
-  .collapse h2 {
-    margin-right: -75px;
+  .collapse ul {
+    padding-left: 5px;
   }
 
   .top-btn {
@@ -331,7 +351,7 @@ body {
   }
 
   .search-input {
-    width: 100px;
+    width: 370px;
     margin-left: -250px !important;
 
     margin-right: -10px;
@@ -539,9 +559,12 @@ body {
 /* Responsiveness for Modal styles for filter and location button ends */
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+
+
+
+@media (min-width: 575.98px) {
   .explore-modal-input {
-    width: 300px;
+    width: 300px !important;
     height: 48px;
   }
 
@@ -550,11 +573,11 @@ body {
   }
 
   .modal-header #locationModalLongTitle {
-    margin-left: -150px !important;
+    margin-left: -120px !important;
   }
 
   .modal-header #close {
-    margin-left: -200px !important;
+    margin-left: -220px !important;
   }
 
   .modal-header .close {
@@ -563,9 +586,9 @@ body {
 }
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .explore-modal-input {
-    width: 180px;
+    width: 180px !important;
     height: 48px;
   }
 
@@ -579,19 +602,39 @@ body {
 
   .modal-header #locationModalLongTitle {
     margin-left: -40px !important;
+    /* background-color: red; */
   }
 
   .modal-header #close {
-    margin-left: -80px !important;
+    margin-left: -70px !important;
   }
 
   .modal-header .close {
     margin-left: -80px !important;
   }
+
+  
+  .search-input {
+    padding-left: 20px !important;
+    font-size: 1.3em;
+  }
+
+  .input-list {
+    position: relative;
+  }
+
+  .input-list i {
+    margin-right: 2px !important;
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 16px;
+    color: #c0c2c8;
+  }
 }
 
 /* // Medium devices (tablets, less than 992px) */
-@media (max-width: 1024px) {
+@media (min-width: 1024px) {
   .explore-modal-input {
     width: 250px;
     height: 48px;
