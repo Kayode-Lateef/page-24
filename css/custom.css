@@ -273,144 +273,7 @@ body {
   margin-right: 10px;
 }
 
-/* Responsive columns */
-@media screen and (max-width: 800px) {
-  .column {
-    width: 100%;
-    display: inline;
-    margin-bottom: 20px;
-  }
-}
 
-/* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  #sidebar ul li.active > a {
-    font-size: 14px;
-    font-weight: bold;
-    background: #fff;
-    color: #3f69e3;
-  }
-  #sidebar .logo {
-    display: none;
-  }
-
-  .collapse ul {
-    padding-left: 5px;
-  }
-
-  .top-btn {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 0px;
-  }
-
-  .search-input {
-    margin-left: 30px;
-    margin-right: 0px !important;
-    width: 250px !important;
-  }
-
-  .search-input {
-    padding-left: 40px;
-    font-size: 1.3em;
-  }
-
-  .input-list {
-    position: relative;
-  }
-
-  .input-list i {
-    position: absolute;
-    left: 15px;
-    top: 15px;
-    font-size: 16px;
-    color: #c0c2c8;
-  }
-}
-
-/* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 768px) {
-  #sidebar .logo {
-    display: none;
-  }
-  #sidebar ul li.active > a {
-    font-size: 14px;
-    font-weight: bold;
-    background: #fff;
-    color: #3f69e3;
-  }
-
-  .collapse ul {
-    padding-left: 5px;
-  }
-
-  .top-btn {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 0px;
-  }
-
-  .search-input {
-    width: 370px;
-    margin-left: -250px !important;
-
-    margin-right: -10px;
-  }
-
-  .search-input {
-    padding-left: 40px;
-    font-size: 1.3em;
-  }
-
-  .input-list {
-    position: relative;
-  }
-
-  .input-list i {
-    position: absolute;
-    left: 15px;
-    top: 8px;
-    font-size: 16px;
-    color: #c0c2c8;
-  }
-}
-
-/* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-}
-
-/* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
-}
-
-@media (max-width: 1280px) {
-  .top-btn {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-right: 0px;
-  }
-
-  .search-input {
-    margin-right: 0px;
-    margin-left: 0px !important;
-  }
-  .search-input {
-    padding-left: 40px;
-    font-size: 1.3em;
-  }
-
-  .input-list {
-    position: relative;
-  }
-
-  .input-list i {
-    position: absolute;
-    left: 15px;
-    top: 8px;
-    font-size: 16px;
-    color: #c0c2c8;
-  }
-}
 
 /* Modal styles for filter and location button starts */
 
@@ -556,112 +419,13 @@ body {
 
 /* Modal styles for filter and location button ends */
 
-/* Responsiveness for Modal styles for filter and location button ends */
-
-/* // Extra small devices (portrait phones, less than 576px) */
-
-
-
-@media (max-width: 575.98px) {
-  .explore-modal-input {
-    width: 300px !important;
-    height: 48px;
+/* Responsive columns */
+@media screen and (max-width: 800px) {
+  .column {
+    width: 100%;
+    display: inline;
+    margin-bottom: 20px;
   }
-
-  .modal-header #filterModalLongTitle {
-    margin-left: -180px !important;
-  }
-
-  .modal-header #locationModalLongTitle {
-    margin-left: -120px !important;
-  }
-
-  .modal-header #close {
-    margin-left: -220px !important;
-  }
-
-  .modal-header .close {
-    margin-left: -210px !important;
-  }
-}
-
-/* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 768px) {
-  .explore-modal-input {
-    width: 180px !important;
-    height: 48px;
-  }
-
-  .btn-done {
-    padding: 8px 71.5px 7.5px 71.5px;
-  }
-
-  .modal-header #filterModalLongTitle {
-    margin-left: -40px !important;
-  }
-
-  .modal-header #locationModalLongTitle {
-    margin-left: -40px !important;
-  }
-
-  .modal-header #close {
-    margin-left: -70px !important;
-  }
-
-  .modal-header .close {
-    margin-left: -80px !important;
-  }
-
-  
-  .search-input {
-    padding-left: 20px !important;
-    font-size: 1.3em;
-  }
-
-  .input-list {
-    position: relative;
-  }
-
-  .input-list i {
-    margin-right: 2px !important;
-    position: absolute;
-    left: 15px;
-    top: 8px;
-    font-size: 16px;
-    color: #c0c2c8;
-  }
-}
-
-/* // Medium devices (tablets, less than 992px) */
-@media (min-width: 1024px) {
-  .explore-modal-input {
-    width: 250px;
-    height: 48px;
-  }
-
-  .btn-done {
-    padding: 16px 71.5px 15px 71.5px;
-  }
-
-  .modal-header #filterModalLongTitle {
-    margin-left: -150px !important;
-  }
-
-  .modal-header #locationModalLongTitle {
-    margin-left: -100px !important;
-  }
-
-  .modal-header #close {
-    margin-left: -120px !important;
-  }
-
-  .modal-header .close {
-    margin-left: -180px !important;
-  }
-}
-
-/* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
 }
 
 /*footer styes*/
@@ -831,4 +595,452 @@ footer p {
   width: 20px;
   height: 20px;
   text-align: center;
+}
+
+
+
+
+/*  ##Device = Desktops ##Screen = 1281px to higher resolution desktops */
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/*  ##Device = Laptops, Desktops ##Screen = B/w 1025px to 1280px */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+
+
+/* ##Device = Tablets, I-pads (portrait) ##Screen = B/w 768px to 1024px */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+
+  .collapse ul {
+    padding-left: 5px;
+  }
+
+  .top-btn {
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+    margin-right: -5px;
+  }
+
+  .search-input {
+
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 300px !important;
+  }
+
+  .search-input {
+    padding-left: 40px;
+    font-size: 1.3em;
+  }
+
+  .input-list {
+    position: relative;
+  }
+
+  .input-list i {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 16px;
+    color: #c0c2c8;
+  }
+ 
+   /* Responsiveness for Modal styles = filter and location */
+
+   .explore-modal-input {
+   width: 200px !important;
+   height: 48px;
+   margin-left: -12px;
+ }
+ .modal-header #locationModalLongTitle {
+   margin-left: -20px !important;
+ }
+ .modal-header #close {
+   margin-left: -50px !important;
+ }
+ .modal-header #filterModalLongTitle {
+   margin-left: -70px !important;
+ }
+ .modal-header .close {
+   margin-left: -100px !important;
+ }
+ 
+ .btn-done {
+  padding: 16px 71.5px 15px 71.5px;
+}
+}
+
+
+
+/*  ##Device = Tablets, I-pads (landscape)  ##Screen = B/w 768px to 1024px */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+
+  .collapse ul {
+    padding-left: 5px;
+  }
+
+  .top-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .search-input {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 380px !important;
+  }
+
+  .search-input {
+    padding-left: 40px;
+    font-size: 1.3em;
+  }
+
+  .input-list {
+    position: relative;
+  }
+
+  .input-list i {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 16px;
+    color: #c0c2c8;
+  }
+ 
+   /* Responsiveness for Modal styles = filter and location starts */
+
+   .explore-modal-input {
+    width: 230px !important;
+    height: 48px;
+  }
+  .modal-header #locationModalLongTitle {
+    margin-left: -80px !important;
+  }
+  .modal-header #close {
+    margin-left: -120px !important;
+  }
+  .modal-header #filterModalLongTitle {
+    margin-left: -100px !important;
+  }
+  .modal-header .close {
+    margin-left: -120px !important;
+  }
+  
+  
+}
+
+
+
+/* ##Device = Low Resolution Tablets, Mobiles (Landscape)   ##Screen = B/w 481px to 767px */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+
+  .collapse ul {
+    padding-left: 5px;
+  }
+
+  .top-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .search-input {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 280px !important;
+  }
+
+  .search-input {
+    padding-left: 40px;
+    font-size: 1.3em;
+  }
+
+  .input-list {
+    position: relative;
+  }
+
+  .input-list i {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 16px;
+    color: #c0c2c8;
+  }
+
+   /* Responsiveness for Modal styles = filter and location */
+
+   .explore-modal-input {
+    width: 340px !important;
+    height: 48px;
+  }
+  .modal-header #locationModalLongTitle {
+    margin-left: -200px !important;
+  }
+  .modal-header #close {
+    margin-left: -230px !important;
+  }
+  .modal-header #filterModalLongTitle {
+    margin-left: -240px !important;
+  }
+  .modal-header .close {
+    margin-left: -280px !important;
+  }
+  
+ 
+  
+}
+
+
+/* ##Device = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+
+  .collapse ul {
+    padding-left: 5px;
+  }
+
+  .top-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .search-input {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 280px !important;
+  }
+
+  .search-input {
+    padding-left: 40px;
+    font-size: 1.3em;
+  }
+
+  .input-list {
+    position: relative;
+  }
+
+  .input-list i {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 16px;
+    color: #c0c2c8;
+  }
+
+
+  /* Responsiveness for Modal styles = filter and location */
+
+  .explore-modal-input {
+    width: 300px !important;
+    height: 48px;
+  }
+  .modal-header #locationModalLongTitle {
+    margin-left: -120px !important;
+  }
+  .modal-header #close {
+    margin-left: -180px !important;
+  }
+  .modal-header #filterModalLongTitle {
+    margin-left: -180px !important;
+  }
+  .modal-header .close {
+    margin-left: -210px !important;
+  }
+  
+}
+
+
+/* ##Devices = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px */
+
+@media (min-width: 320px) and (max-width: 360px) {
+  
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+
+  .collapse ul {
+    padding-left: 5px;
+  }
+
+  .top-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .search-input {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 280px !important;
+  }
+
+  .search-input {
+    padding-left: 40px;
+    font-size: 1.3em;
+  }
+
+  .input-list {
+    position: relative;
+  }
+
+  .input-list i {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 16px;
+    color: #c0c2c8;
+  }
+
+
+  /* Responsiveness for Modal styles = filter and location */
+
+  .explore-modal-input {
+    width: 280px !important;
+    height: 48px;
+    margin-left: -10px;
+  }
+  .modal-header #locationModalLongTitle {
+    margin-left: -120px !important;
+  }
+  .modal-header #close {
+    margin-left: -180px !important;
+  }
+  .modal-header #filterModalLongTitle {
+    margin-left: -180px !important;
+  }
+  .modal-header .close {
+    margin-left: -210px !important;
+  }
+  
+}
+
+/* ##Devices = Most of the Smartphones Mobiles (Portrait)  ##Screen = B/w 320px to 479px */
+
+@media (min-width: 200px) and (max-width: 280px) {
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+
+  .collapse ul {
+    padding-left: 5px;
+  }
+
+  .top-btn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0px;
+  }
+
+  .search-input {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 200px !important;
+  }
+
+  .search-input {
+    padding-left: 40px;
+    font-size: 1.3em;
+  }
+
+  .input-list {
+    position: relative;
+  }
+
+  .input-list i {
+    position: absolute;
+    left: 15px;
+    top: 8px;
+    font-size: 16px;
+    color: #c0c2c8;
+  }
+
+
+  /* Responsiveness for Modal styles = filter and location */
+
+  .explore-modal-input {
+    width: 200px !important;
+    height: 48px;
+    margin-left: -10px;
+  }
+  .modal-header #locationModalLongTitle {
+    margin-left: -80px !important;
+  }
+  .modal-header #close {
+    margin-left: -120px !important;
+  }
+  .modal-header #filterModalLongTitle {
+    margin-left: -80px !important;
+  }
+  .modal-header .close {
+    margin-left: -120px !important;
+  }
+
+  .btn-done {
+    padding: 8px 71.5px 7.5px 71.5px;
+  }
 }
