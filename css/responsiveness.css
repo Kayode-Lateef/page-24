@@ -1,0 +1,597 @@
+/* ====================GENERAL======================== */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  #Device = Tablets, Ipads (portrait)
+  #Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+
+  
+}
+
+/* 
+  #Device = Tablets, Ipads (landscape)
+  #Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+  */
+} 
+
+/* 
+  #Device = Low Resolution Tablets, Mobiles (Landscape)
+  #Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+  
+}
+
+/* 
+  #Device = Most of the Smartphones Mobiles (Portrait)
+  #Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+
+  
+}
+
+@media (min-width: 320px) and (max-width: 360px) {
+    
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+
+}
+
+@media (min-width: 200px) and (max-width: 280px) {
+  #sidebar ul li.active > a {
+    font-size: 14px;
+    font-weight: bold;
+    background: #fff;
+    color: #3f69e3;
+  }
+  #sidebar .logo {
+    display: none;
+  }
+
+}
+
+
+/* =========================EXPLORE PAGE============================== */
+
+/*  #Device = Desktops #Screen = 1281px to higher resolution desktops */
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /*  #Device = Laptops, Desktops #Screen = B/w 1025px to 1280px */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+  
+  }
+  
+  
+  
+  /* #Device = Tablets, I-pads (portrait) #Screen = B/w 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+  
+    .collapse ul {
+      padding-left: 5px;
+    }
+  
+    .top-btn {
+      /* margin-top: 5px;
+      margin-bottom: 5px; */
+      margin-right: -5px;
+    }
+  
+    .search-input {
+  
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      width: 300px !important;
+    }
+  
+    .search-input {
+      padding-left: 40px;
+      font-size: 1.3em;
+    }
+  
+    .input-list {
+      position: relative;
+    }
+  
+    .input-list i {
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      font-size: 16px;
+      color: #c0c2c8;
+    }
+   
+     /* Responsiveness for Modal styles = filter and location */
+  
+     .explore-modal-input {
+     width: 200px !important;
+     height: 48px;
+     margin-left: -12px;
+   }
+   .modal-header #locationModalLongTitle {
+     margin-left: -20px !important;
+   }
+   .modal-header #close {
+     margin-left: -50px !important;
+   }
+   .modal-header #filterModalLongTitle {
+     margin-left: -70px !important;
+   }
+   .modal-header .close {
+     margin-left: -100px !important;
+   }
+   
+   .btn-done {
+    padding: 16px 71.5px 15px 71.5px;
+  }
+  }
+  
+  
+  
+  /*  #Device = Tablets, I-pads (landscape)  #Screen = B/w 768px to 1024px */
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  
+  
+    .collapse ul {
+      padding-left: 5px;
+    }
+  
+    .top-btn {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 0px;
+    }
+  
+    .search-input {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      width: 380px !important;
+    }
+  
+    .search-input {
+      padding-left: 40px;
+      font-size: 1.3em;
+    }
+  
+    .input-list {
+      position: relative;
+    }
+  
+    .input-list i {
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      font-size: 16px;
+      color: #c0c2c8;
+    }
+   
+     /* Responsiveness for Modal styles = filter and location starts */
+  
+     .explore-modal-input {
+      width: 230px !important;
+      height: 48px;
+    }
+    .modal-header #locationModalLongTitle {
+      margin-left: -80px !important;
+    }
+    .modal-header #close {
+      margin-left: -120px !important;
+    }
+    .modal-header #filterModalLongTitle {
+      margin-left: -100px !important;
+    }
+    .modal-header .close {
+      margin-left: -120px !important;
+    }
+    
+    
+  }
+  
+  
+  
+  /* #Device = Low Resolution Tablets, Mobiles (Landscape)   #Screen = B/w 481px to 767px */
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+  
+  
+    .collapse ul {
+      padding-left: 5px;
+    }
+  
+    .top-btn {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 0px;
+    }
+  
+    .search-input {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      width: 280px !important;
+    }
+  
+    .search-input {
+      padding-left: 40px;
+      font-size: 1.3em;
+    }
+  
+    .input-list {
+      position: relative;
+    }
+  
+    .input-list i {
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      font-size: 16px;
+      color: #c0c2c8;
+    }
+  
+     /* Responsiveness for Modal styles = filter and location */
+  
+     .explore-modal-input {
+      width: 340px !important;
+      height: 48px;
+    }
+    .modal-header #locationModalLongTitle {
+      margin-left: -200px !important;
+    }
+    .modal-header #close {
+      margin-left: -230px !important;
+    }
+    .modal-header #filterModalLongTitle {
+      margin-left: -240px !important;
+    }
+    .modal-header .close {
+      margin-left: -280px !important;
+    }
+    
+   
+    
+  }
+  
+  
+  /* #Device = Most of the Smartphones Mobiles (Portrait)  #Screen = B/w 320px to 479px */
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+  
+    .collapse ul {
+      padding-left: 5px;
+    }
+  
+    .top-btn {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 0px;
+    }
+  
+    .search-input {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      width: 280px !important;
+    }
+  
+    .search-input {
+      padding-left: 40px;
+      font-size: 1.3em;
+    }
+  
+    .input-list {
+      position: relative;
+    }
+  
+    .input-list i {
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      font-size: 16px;
+      color: #c0c2c8;
+    }
+  
+  
+    /* Responsiveness for Modal styles = filter and location */
+  
+    .explore-modal-input {
+      width: 300px !important;
+      height: 48px;
+    }
+    .modal-header #locationModalLongTitle {
+      margin-left: -120px !important;
+    }
+    .modal-header #close {
+      margin-left: -180px !important;
+    }
+    .modal-header #filterModalLongTitle {
+      margin-left: -180px !important;
+    }
+    .modal-header .close {
+      margin-left: -210px !important;
+    }
+    
+  }
+  
+  
+  /* #Devices = Most of the Smartphones Mobiles (Portrait)  #Screen = B/w 320px to 479px */
+  @media (min-width: 320px) and (max-width: 360px) {
+  
+    .collapse ul {
+      padding-left: 5px;
+    }
+  
+    .top-btn {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 0px;
+    }
+  
+    .search-input {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      width: 280px !important;
+    }
+  
+    .search-input {
+      padding-left: 40px;
+      font-size: 1.3em;
+    }
+  
+    .input-list {
+      position: relative;
+    }
+  
+    .input-list i {
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      font-size: 16px;
+      color: #c0c2c8;
+    }
+  
+  
+    /* Responsiveness for Modal styles = filter and location */
+  
+    .explore-modal-input {
+      width: 280px !important;
+      height: 48px;
+      margin-left: -10px;
+    }
+    .modal-header #locationModalLongTitle {
+      margin-left: -120px !important;
+    }
+    .modal-header #close {
+      margin-left: -180px !important;
+    }
+    .modal-header #filterModalLongTitle {
+      margin-left: -180px !important;
+    }
+    .modal-header .close {
+      margin-left: -210px !important;
+    }
+    
+  }
+  
+  /* #Devices = Most of the Smartphones Mobiles (Portrait)  #Screen = B/w 200px to 280px */
+  @media (min-width: 200px) and (max-width: 280px) {
+  
+    .collapse ul {
+      padding-left: 5px;
+    }
+  
+    .top-btn {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 0px;
+    }
+  
+    .search-input {
+      margin-left: 0px !important;
+      margin-right: 0px !important;
+      width: 200px !important;
+    }
+  
+    .search-input {
+      padding-left: 40px;
+      font-size: 1.3em;
+    }
+  
+    .input-list {
+      position: relative;
+    }
+  
+    .input-list i {
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      font-size: 16px;
+      color: #c0c2c8;
+    }
+  
+  
+    /* Responsiveness for Modal styles = filter and location */
+  
+    .explore-modal-input {
+      width: 200px !important;
+      height: 48px;
+      margin-left: -10px;
+    }
+    .modal-header #locationModalLongTitle {
+      margin-left: -80px !important;
+    }
+    .modal-header #close {
+      margin-left: -120px !important;
+    }
+    .modal-header #filterModalLongTitle {
+      margin-left: -80px !important;
+    }
+    .modal-header .close {
+      margin-left: -120px !important;
+    }
+  
+    .btn-done {
+      padding: 8px 71.5px 7.5px 71.5px;
+    }
+  }
+
+
+/* =========================JOB LISTING PAGE============================== */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    #Device = Tablets, Ipads (portrait)
+    #Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    .navbar h2{
+      margin-left: 0 !important;
+
+    }
+    
+    .finance-btn{
+      margin-left: -5px;
+    }
+    
+  }
+  
+  /* 
+    #Device = Tablets, Ipads (landscape)
+    #Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .navbar h2{
+      margin-left: 0 !important;
+    }
+    .finance-btn{
+      margin-left: -5px;
+    }
+  }
+  
+  /* 
+    #Device = Low Resolution Tablets, Mobiles (Landscape)
+    #Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .navbar h2{
+      margin-left: 0 !important;
+    }
+    
+    .finance-btn{
+      padding: 23px 37px 22px 37.5px;
+      width: 300px;
+      margin-left: 5px;
+      margin-top: 0px !important;
+    }
+  
+  }
+  
+  /* 
+    #Device = Most of the Smartphones Mobiles (Portrait)
+    #Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .navbar h2{
+      margin-left: 0 !important;
+    }
+
+    .finance-btn{
+      padding: 12.5px 37px 11px 37.5px;
+      width: 300px;
+      margin-top: 0px !important;
+    }
+  
+    
+  }
+
+  /* #Devices = Most of the Smartphones Mobiles (Portrait)  #Screen = B/w 320px to 479px */
+  @media (min-width: 200px) and (max-width: 280px) {
+    .navbar h2{
+      margin-left: 0 !important;
+      font-size: 22px !important;
+
+    }
+
+    .finance-btn{
+      padding: 12.5px 37px 11px 37.5px !important;
+      width: 200px;
+      margin-top: 0px !important;
+    }
+  
+  }
