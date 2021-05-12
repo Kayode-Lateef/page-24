@@ -1,909 +1,568 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <title>Explore</title>
+	<title>Explore</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-     <!-- Font awesome link -->
-  <script src="https://kit.fontawesome.com/98e9736744.js" crossorigin="anonymous"></script>
-  <!-- Font awesome link -->
-   
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link rel="stylesheet" href="css/bootstrap.css" >
-    <link rel="stylesheet" href="css/custom.css">
-    <link rel="stylesheet" href="css/responsiveness.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/custom.css">
 
-
-     <!-- Scrollbar Custom CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
-  <!-- Scrollbar Custom CSS -->
-
-
-    
-  <!-- Bootstrap CSS CDN -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- Bootstrap CSS CDN -->
-
-
- <!-- CAROUSEL CDN LINKS -->
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/>
- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-   <!-- END CAROUSEL CDN LINKS -->
- 
-
+		<link rel="stylesheet" href="carousel.css">
 
   </head>
   <body>
-    <div class="wrapper d-flex align-items-stretch">
-      <nav id="sidebar" class="active">
-        <h3>  <a href="" class="logo"> <img src="images/Arc-Open-Space-App-logo.png" alt="" width="170"></a></h3>
-      
-       <button style="margin-top: 35px;" type="button" id="sidebarCollapse" class="btn btn-primary">
-        <i class="fa fa-bars"></i>
-        <span class="sr-only">Toggle Menu</span>
-      </button>
-        <ul class="list-unstyled components mb-5">
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar" class="active">
+				<h3>  <a href="" class="logo"> <img src="images/Arc-Open-Space-App-logo.png" alt="" width="170"></a></h3>
+				<button type="button" id="sidebarCollapse" class="btn btn-primary">
+					<i class="fa fa-bars"></i>
+					<span class="sr-only">Toggle Menu</span>
+				  </button>
+
+				<ul class="list-unstyled components mb-5">
          
-          <li class="active">
-            <a class="nav-link" href="#" ><span><i class="fa fa-search"></i></span>Explore</a>
-            
-        </li>
+				<li class="active">
+					  <a class="nav-link" href="index.html" ><span><i class="fa fa-search"></i></span>Explore</a>
+					  
+				  </li>
+		  
+				   
+					<li>
+					  <a nav-link href="job-listings.html"><span><i class="fa fa-briefcase"></i></span>Job Listings</a> 
+				  </li>
+		  
+					<li>
+					  <a nav-link href="#"><span><i class="fa fa-comment" aria-hidden="true"></i></span>Chats</a>
+				  </li>
+		  
+					<li>
+					  <a nav-link href="finances.html"><span><i class="fa fa-eur" aria-hidden="true"></i></span>Finances</a>
+				  </li>
+		  
+					<li>
+					  <a nav-link href="#"><span><i class="fa fa-heart-o" aria-hidden="true"></i></span>Saved</a>
+				  </li>
+		  
+				  <li>
+					  <a nav-link href="#"><span><i class="fa fa-user"></i></span>Profile</a>
+				  </li>
+				  </ul>
 
-         
-          <li>
-            <a nav-link href="#"><span><i class="fa fa-briefcase"></i></span>Job Listings</a> 
-        </li>
-
-          <li>
-            <a nav-link href="#"><span><i class="fa fa-comment" aria-hidden="true"></i></span>Chats</a>
-        </li>
-
-          <li>
-            <a nav-link href="#"><span><i class="fa fa-eur" aria-hidden="true"></i></span>Finances</a>
-        </li>
-
-          <li>
-            <a nav-link href="#"><span><i class="fa fa-heart-o" aria-hidden="true"></i></span>Saved</a>
-        </li>
-
-        <li>
-            <a nav-link href="#"><span><i class="fa fa-user"></i></span>Profile</a>
-        </li>
-        </ul>
         <!-- <div class="footer">
-          <p>
-            Copyright &copy;
-            <script>
-              document.write(new Date().getFullYear());
-            </script>
-            All rights reserved | Arc Open Space
-            <i class="icon-heart" aria-hidden="true"></i> by
-            <a href="" target="_blank"></a>
-          </p>
+        	<p>
+					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+					</p>
         </div> -->
-      </nav>
+    	</nav>
 
+        <!-- Page Content  -->
       <div id="content" class="p-4 p-md-5">
-        <nav style=" margin-top: 10px;" class="navbar navbar-expand-lg navbar-light">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
 
-            <h2 style="color: #010D3F; margin-left: 0px; margin-right: 0px; font-weight: 700; font-size: 28px;
-              ">Explore</h2>
-
-          
-           
-            <button
-              class="btn btn-primary d-inline-block d-lg-none ml-auto"
-              type="button"
-              
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <i class="fa fa-bars"></i>
+            
+            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
             </button>
 
-            
-              
-
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              
-             
-
-            
-
               <ul class="nav navbar-nav ml-auto">
-                <li style="margin-right: 20px;"  class="input-list">
-                  <input class="search-input"  type="search" name="" id="" placeholder="Search" />  <i class="fa fa-search" aria-hidden="true"></i> 
-  
-              </li>
-                <li style="margin-right: 5px;" class="nav-item d-inline-block">
-                   <button type="button" data-toggle="modal" data-target="#locationModalCenter"  class="top-btn">
-                            <span><i class="fas fa-map-marker-alt"></i></span>Location
-                          </button>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Explore</a>
                 </li>
-                <li class="nav-item d-inline-block">
-                  <button type="button" data-toggle="modal" data-target="#filterModalCenter" class="top-btn">
-                    <span ><i class="fa fa-filter" aria-hidden="true"></i></span>Filter
-                  </button>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Job Listings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Chats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Finances</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="#">Saved</a>
+                </li><li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
-        
 
-<!-- Modal filter -->
-  
-<div class="modal col-sm-4 col-md-4" id="filterModalCenter" tabindex="-1" role="dialog" aria-labelledby="filterModalCenteTitle" aria-hidden="true" style="margin: 0 auto;">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      
-      <div class="modal-header">
-        
-        <h4 class="modal-title" id="filterModalLongTitle">Filter</h4>
-
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&#706;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-<div class="modal-contents">
+        <!-- Top content -->
+        <div class="top-content">
+        	<div class="container-fluid">
+				<p class="txt">HIGH RATED</p>
 
 
-              <div class="col-12 modal-input">
-                <input class="explore-modal-input"  type="search" name="" id="" placeholder="Search" /><i class="fa fa-search" aria-hidden="true"></i> 
-              </div>
+				<div id="carousel-example" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner row w-100 mx-auto" role="listbox">
+						<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3 active">
+							<div class="card card-bg-1" style="background-image: url('images/bg-1.png')">
+								<div class="card-profile">  
+								 <div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+							   <div class="card-details">
+								 <p>Michelle Price </p>
+								 <span><i class="fa fa-star" aria-hidden="true"></i> 
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star-half" aria-hidden="true"></i>
+								 </span>
+							   </div>
+							   
+							   </div>
+							  
+								 <p class="card-location-p">
+								   <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
+								 </p>
+								 <button class="btn-card-1">1 VIEW PROFILE</button>
+							   </div>
+							<!-- <img src="assets/img/backgrounds/1.jpg" class="img-fluid mx-auto d-block" alt="img1"> -->
+						</div>
+						<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="card card-bg-1" style="background-image: url('images/bg-2.png')">
+								<div class="card-profile">  
+									<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+									<div class="card-details">
+								 <p>Michelle Price </p>
+								 <span><i class="fa fa-star" aria-hidden="true"></i> 
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star-half" aria-hidden="true"></i>
+								 </span>
+							   </div>
+							   
+							   </div>
+							  
+								 <p class="card-location-p">
+								   <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
+								 </p>
+								 <button class="btn-card-2">2 VIEW PROFILE</button>
+							   </div>
 
+						</div>
+						<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="card card-bg-1" style="background-image: url('images/bg-3.png')">
+								<div class="card-profile">  
+									<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+									<div class="card-details">
+								 <p>Michelle Price </p>
+								 <span><i class="fa fa-star" aria-hidden="true"></i> 
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star-half" aria-hidden="true"></i>
+								 </span>
+							   </div>
+							   
+							   </div>
+							  
+								 <p class="card-location-p">
+								   <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
+								 </p>
+								 <button class="btn-card-3">3 VIEW PROFILE</button>
+							   </div>
 
-          <div class="col-12" >      
-            <div class="modal-p">
-              <p>Rating</p> 
-            </div>       
-                 <div  class="modal-icons">
-                 <input type="checkbox" name="" id=""> 
-                  <i class="fa fa-star" aria-hidden="true"></i> 
-                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>                  
-                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-                </div>
-                <div  class="modal-icons">
-                  <input type="checkbox" checked name="" id=""> 
-                  <i class="fa fa-star" aria-hidden="true"></i> 
-                  <i class="fa fa-star" aria-hidden="true"></i>                  
-                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-                 </div>
-                 <div  class="modal-icons">
-                  <input type="checkbox" name="" id=""> 
-                  <i class="fa fa-star" aria-hidden="true"></i> 
-                  <i class="fa fa-star" aria-hidden="true"></i>                  
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-                 </div>
-                 <div  class="modal-icons">
-                  <input type="checkbox" name="" id=""> 
-                  <i class="fa fa-star" aria-hidden="true"></i> 
-                  <i class="fa fa-star" aria-hidden="true"></i>                  
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-                 </div>
-                         
-                  <div class="modal-p">
-                    <p>Hourly Rate</p> 
-                  </div>
-                  <div class="modal-icons">
-                    <input type="checkbox" name="" id=""><span> Less than £10 </span>
-                      </div>
-                      <div  class="modal-icons">
-                        <input type="checkbox" checked name="" id=""><span>£10-£20</span>
-                      </div>
-                      <div  class="modal-icons">
-                        <input type="checkbox" name="" id=""><span>£20-£30</span>
-                      </div>                      
-                      <div  class="modal-icons">
-                        <input type="checkbox" checked name="" id=""><span>More than £30</span>
-                      </div>                        
-                     
-                      <div id="modal-filter-button">
-                          <button  type="submit" class="btn-done btn-block">DONE</button> 
-                        </div>       
-</div>
+						</div>
+						<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="card card-bg-1" style="background-image: url('images/bg-4.png')">
+								<div class="card-profile">  
+									<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+									<div class="card-details">
+								 <p>Michelle Price </p>
+								 <span><i class="fa fa-star" aria-hidden="true"></i> 
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star-half" aria-hidden="true"></i>
+								 </span>
+							   </div>
+							   
+							   </div>
+							  
+								 <p class="card-location-p">
+								   <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
+								 </p>
+								 <button class="btn-card-4">4 VIEW PROFILE</button>
+							   </div>
 
-        
-              
-     </div>      
-      </div>
-      
-    </div>
-  </div>
-</div>
+						</div>
+						<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="card card-bg-1" style="background-image: url('images/bg-1.png')">
+								<div class="card-profile">  
+									<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+									<div class="card-details">
+								 <p>Michelle Price </p>
+								 <span><i class="fa fa-star" aria-hidden="true"></i> 
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star-half" aria-hidden="true"></i>
+								 </span>
+							   </div>
+							   
+							   </div>
+							  
+								 <p class="card-location-p">
+								   <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
+								 </p>
+								 <button class="btn-card-1">5 VIEW PROFILE</button>
+							   </div>
 
-<!-- MODALS Filter ENDS -->
+						</div>
+						<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="card card-bg-1" style="background-image: url('images/bg-2.png')">
+								<div class="card-profile">  
+									<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+									<div class="card-details">
+								 <p>Michelle Price </p>
+								 <span><i class="fa fa-star" aria-hidden="true"></i> 
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star-half" aria-hidden="true"></i>
+								 </span>
+							   </div>
+							   
+							   </div>
+							  
+								 <p class="card-location-p">
+								   <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
+								 </p>
+								 <button class="btn-card-2">6 VIEW PROFILE</button>
+							   </div>
 
-<!-- Modal Location -->
-  
-<div class="modal col-sm-4" id="locationModalCenter" tabindex="-1" role="dialog" aria-labelledby="locationModalCenteTitle" aria-hidden="true" style="margin: 0 auto;">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      
-      <div class="modal-header">
-        
-        <h4 class="modal-title" id="locationModalLongTitle">Location</h4>
+						</div>
+						<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="card card-bg-1" style="background-image: url('images/bg-3.png')">
+								<div class="card-profile">  
+									<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+									<div class="card-details">
+								 <p>Michelle Price </p>
+								 <span><i class="fa fa-star" aria-hidden="true"></i> 
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star-half" aria-hidden="true"></i>
+								 </span>
+							   </div>
+							   
+							   </div>
+							  
+								 <p class="card-location-p">
+								   <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
+								 </p>
+								 <button class="btn-card-3">7 VIEW PROFILE</button>
+							   </div>
 
-        <button type="button" id="close" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&#706;</span>
-        </button>
-      </div>
-      <div class="modal-body">
+						</div>
+						<div class="carousel-item col-12 col-sm-6 col-md-4 col-lg-3">
+							<div class="card card-bg-1" style="background-image: url('images/bg-4.png')">
+								<div class="card-profile">  
+									<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+									<div class="card-details">
+								 <p>Michelle Price </p>
+								 <span><i class="fa fa-star" aria-hidden="true"></i> 
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star" aria-hidden="true"></i>
+								   <i class="fa fa-star-half" aria-hidden="true"></i>
+								 </span>
+							   </div>
+							   
+							   </div>
+							  
+								 <p class="card-location-p">
+								   <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
+								 </p>
+								 <button class="btn-card-4">8 VIEW PROFILE</button>
+							   </div>
 
-        <div class="modal-contents">
+						</div>
+					</div>
+					<!-- <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carousel-example" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a> -->
+				</div>
 
-        
-
-        <div class="col-12 modal-input">
-          <input class="explore-modal-input"  type="search" name="" id="" placeholder="Search" /><i class="fa fa-search" aria-hidden="true"></i> 
+        	</div>
         </div>
 
-
-          <div class="col-12" > 
-            <div class="modal-p">
-              <p>Location</p> 
-            </div> 
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>London ( Greater London)</span>
-            </div>      
-
-            <div class="modal-icons">
-              <input type="checkbox" checked name="" id=""><span>Reading (South East)</span>
-            </div> 
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Oxford & Cammbridge (South east )</span>
-            </div>
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Canterbury ( South East)</span>
-            </div>  
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Southampton ( South East)</span>
-            </div>
-            
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Dover & Folkestone ( South East)</span>
-            </div> 
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Brighton ( South East)</span>
-            </div>             
-            
-            <div class="modal-icons">
-              <input type="checkbox" checked name="" id=""><span>Norwich ( East England )</span>
-            </div> 
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Bedford ( East England)</span>
-            </div> 
-
-            <div class="modal-icons">
-              <input type="checkbox" checked name="" id=""><span>Peterborough ( East England)</span>
-            </div> 
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Luton ( East England )</span>
-            </div> 
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Glasgow ( Scotland)</span>
-            </div> 
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Edinburgh (Scotland )</span>
-            </div>
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Aberdeen ( Scotland) </span>
-            </div>
-
-            <div class="modal-icons">
-              <input type="checkbox" name="" id=""><span>Belfast (Northern Ireland )</span>
-            </div>
-
-          </div>
-         
-              <div id="modal-location-button">                        
-                <button  type="submit" class="btn-done btn-block">DONE</button> 
-              </div>
-            </div>      
-      </div>
-    
-    </div>
-  </div>
-</div>
-
-<!-- MODALS Location ENDS -->
-
-
-         <!-- ------------------HIGH RATED SECTION---------------------------------------->
-  
-         <section  style="padding: 1px 16px">
-          <p class="txt">HIGH RATED</p>
-      
-            <div
-        id="carouselExampleIndicators2"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-          <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-            <div class="column col-sm-3">
-              <div class="card card-bg-1" style="background-image: url('images/bg-1.png')">
-               <div class="card-profile">  
-                <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-              <div class="card-details">
-                <p>Michelle Price </p>
-                <span><i class="fa fa-star" aria-hidden="true"></i> 
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star" aria-hidden="true"></i>
-                  <i class="fa fa-star-half" aria-hidden="true"></i>
-                </span>
-              </div>
-              
-              </div>
-             
-                <p class="card-location-p">
-                  <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                </p>
-                <button class="btn-card-1">VIEW PROFILE</button>
-              </div>
-            </div>
-
-            <div class="column col-sm-3">
-              <div class="card card-bg-1" style="background-image: url('images/bg-4.png')">
-                <div class="card-profile">
-                  <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                <div class="card-details">
-                  <p>Michelle Price </p>
-                  <span><i class="fa fa-star" aria-hidden="true"></i> 
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-half" aria-hidden="true"></i>
-                  </span>
-                </div>
-                
-                </div>
-               
-                  <p class="card-location-p">
-                    <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                  </p>
-                  <button class="btn-card-2">VIEW PROFILE</button>
-                </div>
-            </div>
-
-            <div class="column col-sm-3">
-              <div class="card card-bg-1" style="background-image: url('images/bg-2.png')">
-                <div class="card-profile">
-                  <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                <div class="card-details">
-                  <p>Michelle Price </p>
-                  <span><i class="fa fa-star" aria-hidden="true"></i> 
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-half" aria-hidden="true"></i>
-                  </span>
-                </div>
-                
-                </div>
-               
-                  <p class="card-location-p">
-                    <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                  </p>
-                  <button class="btn-card-3">VIEW PROFILE</button>
-                </div>
-            </div>
-
-            <div class="column col-sm-3">
-              <div class="card card-bg-1" style="background-image: url('images/bg-3.png')">
-                <div class="card-profile">
-                  <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                <div class="card-details">
-                  <p>Michelle Price </p>
-                  <span><i class="fa fa-star" aria-hidden="true"></i> 
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star" aria-hidden="true"></i>
-                    <i class="fa fa-star-half" aria-hidden="true"></i>
-                  </span>
-                </div>
-                
-                </div>
-               
-                  <p class="card-location-p">
-                    <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                  </p>
-                  <button class="btn-card-4">VIEW PROFILE</button>
-                </div>
-            </div>
-          </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('images/bg-3.png')">
-                  <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                 <div class="card-details">
-                   <p>Michelle Price </p>
-                   <span><i class="fa fa-star" aria-hidden="true"></i> 
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star-half" aria-hidden="true"></i>
-                   </span>
-                 </div>
-                 
-                 </div>
-                
-                   <p class="card-location-p">
-                     <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                   </p>
-                   <button class="btn-card-4">VIEW PROFILE</button>
-                 </div>                          
-              </div>
-              <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('images/bg-1.png')">
-                  <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                 <div class="card-details">
-                   <p>Michelle Price </p>
-                   <span><i class="fa fa-star" aria-hidden="true"></i> 
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star-half" aria-hidden="true"></i>
-                   </span>
-                 </div>
-                 
-                 </div>
-                
-                   <p class="card-location-p">
-                     <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                   </p>
-                   <button class="btn-card-1">VIEW PROFILE</button>
-                 </div>
-              </div>
-              <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('images/bg-4.png')">
-                  <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                 <div class="card-details">
-                   <p>Michelle Price </p>
-                   <span><i class="fa fa-star" aria-hidden="true"></i> 
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star-half" aria-hidden="true"></i>
-                   </span>
-                 </div>
-                 
-                 </div>
-                
-                   <p class="card-location-p">
-                     <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                   </p>
-                   <button class="btn-card-2">VIEW PROFILE</button>
-                 </div>
-              </div>
-              <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('images/bg-2.png')">
-                  <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                 <div class="card-details">
-                   <p>Michelle Price </p>
-                   <span><i class="fa fa-star" aria-hidden="true"></i> 
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star-half" aria-hidden="true"></i>
-                   </span>
-                 </div>
-                 
-                 </div>
-                
-                   <p class="card-location-p">
-                     <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                   </p>
-                   <button class="btn-card-3">VIEW PROFILE</button>
-                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('images/bg-2.png')">
-                  <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                 <div class="card-details">
-                   <p>Michelle Price </p>
-                   <span><i class="fa fa-star" aria-hidden="true"></i> 
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star-half" aria-hidden="true"></i>
-                   </span>
-                 </div>
-                 
-                 </div>
-                
-                   <p class="card-location-p">
-                     <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                   </p>
-                   <button class="btn-card-3">VIEW PROFILE</button>
-                 </div>                         
-              </div>
-              <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('images/bg-1.png')">
-                  <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                 <div class="card-details">
-                   <p>Michelle Price </p>
-                   <span><i class="fa fa-star" aria-hidden="true"></i> 
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star-half" aria-hidden="true"></i>
-                   </span>
-                 </div>
-                 
-                 </div>
-                
-                   <p class="card-location-p">
-                     <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                   </p>
-                   <button class="btn-card-1">VIEW PROFILE</button>
-                 </div>
-              </div>
-              <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('images/bg-3.png')">
-                  <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                 <div class="card-details">
-                   <p>Michelle Price </p>
-                   <span><i class="fa fa-star" aria-hidden="true"></i> 
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star-half" aria-hidden="true"></i>
-                   </span>
-                 </div>
-                 
-                 </div>
-                
-                   <p class="card-location-p">
-                     <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                   </p>
-                   <button class="btn-card-4">VIEW PROFILE</button>
-                 </div> 
-              </div>
-              <div class="column col-sm-3">
-                <div class="card card-bg-1" style="background-image: url('images/bg-2.png')">
-                  <div class="card-profile">
-                    <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-                 <div class="card-details">
-                   <p>Michelle Price </p>
-                   <span><i class="fa fa-star" aria-hidden="true"></i> 
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star" aria-hidden="true"></i>
-                     <i class="fa fa-star-half" aria-hidden="true"></i>
-                   </span>
-                 </div>
-                 
-                 </div>
-                
-                   <p class="card-location-p">
-                     <span class="card-location"><i class="fas fa-map-marker-alt"></i></span>WaterLoo
-                   </p>
-                   <button class="btn-card-3">VIEW PROFILE</button>
-                 </div>
-              </div>
-            </div>
-          </div>
-          </div>
-          </div>
-      
-      </section>
-
-
-
- <!-- ------------------ALL MEMBERS SECTIONS 1---------------------------------------->
+		 <!-- ------------------ALL MEMBERS SECTIONS 1---------------------------------------->
  <section style="margin-top:0px">
-  <div style="padding: 1px 16px;">
-    <p class="txt" style="margin-top:24px" >ALL MEMBERS</p>
+	<div style="padding: 1px 16px;">
+	  <p class="txt" style="margin-top:24px" >ALL MEMBERS</p>
+  
+	  <div class="row">
+		<div class="column column-2 col-sm-4">
+		  <div class="card-2">
+			<div class="card-profile">
+				<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+				<div class="card-details">
+				  <p>Harry Sahir </p> 
+				  <span>
+				  <i class="fa fa-star" aria-hidden="true"></i> 
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+				</span>
+				</div>
+  
+				</div>
+				<div >
+				<p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
+				  <button class="card-2-btn"><i class="fa fa-heart"></i></button>
+				  </div>
+		  </div>
+		</div>
+  
+		<div class="column column-2 col-sm-4">
+		  <div class="card-2">
+			<div class="card-profile">
+				<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+				<div class="card-details">
+				  <p>Harry Sahir </p> 
+				  <span>
+				  <i class="fa fa-star" aria-hidden="true"></i> 
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+				</span>
+				</div>
+  
+				</div>
+				<div >
+				  <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
+				  <button class="card-2-btn"><i class="fa fa-heart"></i></button>
+				  </div>
+		  </div>
+		</div>
+  
+		<div class="column column-2 col-sm-4">
+		  <div class="card-2">
+			<div class="card-profile">
+				<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+				<div class="card-details">
+				  <p>Harry Sahir </p> 
+				  <span>
+				  <i class="fa fa-star" aria-hidden="true"></i> 
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+				</span>
+				</div>
+  
+				</div>
+				<div >
+				  <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
+				  <button class="card-2-btn"><i class="fa fa-heart"></i></button>
+				  </div>
+		  </div>
+		</div>
+  </section>
+  
+  <!-- ------------------ALL MEMBERS SECTIONS 2---------------------------------------->
+  <section>
+	<div style="padding: 1px 16px;">
+	  <div class="row">
+		<div class="column column-3 col-sm-4">
+		  <div class="card-2">
+			<div class="card-profile">
+				<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+				<div class="card-details">
+				  <p>Harry Sahir </p> 
+				  <span>
+				  <i class="fa fa-star" aria-hidden="true"></i> 
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+				</span>
+				</div>
+  
+				</div>
+				<div >
+				  <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
+				  <button class="card-2-btn"><i class="fa fa-heart"></i></button>
+				  </div>
+		  </div>
+		</div>
+		<div class="column column-3 col-sm-4">
+		  <div class="card-2">
+			<div class="card-profile">
+				<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+				<div class="card-details">
+				  <p>Harry Sahir </p> 
+				  <span>
+				  <i class="fa fa-star" aria-hidden="true"></i> 
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+				</span>
+				</div>
+  
+				</div>
+				<div >
+				  <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
+				  <button class="card-2-btn"><i class="fa fa-heart"></i></button>
+				  </div>
+		  </div>
+		</div>
+  
+		<div class="column column-3 col-sm-4">
+		  <div class="card-2">
+			<div class="card-profile">
+				<div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+				<div class="card-details">
+				  <p>Harry Sahir </p> 
+				<span>
+				  <i class="fa fa-star" aria-hidden="true"></i> 
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star" aria-hidden="true"></i>
+				<i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+				</span>
+				</div>
+  
+				</div>
+				<div >
+				  <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
+				  <button class="card-2-btn"><i class="fa fa-heart"></i></button>
+				  </div>
+		  </div>
+		</div>
+  
+  </section>
+  
 
-    <div class="row">
-      <div class="column column-2 col-sm-4">
-        <div class="card-2">
-          <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-              <div class="card-details">
-                <p>Harry Sahir </p> 
-                <span>
-                <i class="fa fa-star" aria-hidden="true"></i> 
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-              </span>
-              </div>
-
-              </div>
-              <div >
-              <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
-                <button class="card-2-btn"><i class="far fa-heart"></i></button>
-                </div>
-        </div>
       </div>
-
-      <div class="column column-2 col-sm-4">
-        <div class="card-2">
-          <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-              <div class="card-details">
-                <p>Harry Sahir </p> 
-                <span>
-                <i class="fa fa-star" aria-hidden="true"></i> 
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-              </span>
-              </div>
-
-              </div>
-              <div >
-                <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
-                <button class="card-2-btn"><i class="far fa-heart"></i></button>
-                </div>
-        </div>
-      </div>
-
-      <div class="column column-2 col-sm-4">
-        <div class="card-2">
-          <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-              <div class="card-details">
-                <p>Harry Sahir </p> 
-                <span>
-                <i class="fa fa-star" aria-hidden="true"></i> 
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-              </span>
-              </div>
-
-              </div>
-              <div >
-                <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
-                <button class="card-2-btn"><i class="far fa-heart"></i></button>
-                </div>
-        </div>
-      </div>
-</section>
-
-<!-- ------------------ALL MEMBERS SECTIONS 2---------------------------------------->
-<section>
-  <div style="padding: 1px 16px;">
-    <div class="row">
-      <div class="column column-3 col-sm-4">
-        <div class="card-2">
-          <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-              <div class="card-details">
-                <p>Harry Sahir </p> 
-                <span>
-                <i class="fa fa-star" aria-hidden="true"></i> 
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-              </span>
-              </div>
-
-              </div>
-              <div >
-                <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
-                <button class="card-2-btn"><i class="far fa-heart"></i></button>
-                </div>
-        </div>
-      </div>
-      <div class="column column-3 col-sm-4">
-        <div class="card-2">
-          <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-              <div class="card-details">
-                <p>Harry Sahir </p> 
-                <span>
-                <i class="fa fa-star" aria-hidden="true"></i> 
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-              </span>
-              </div>
-
-              </div>
-              <div >
-                <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
-                <button class="card-2-btn"><i class="far fa-heart"></i></button>
-                </div>
-        </div>
-      </div>
-
-      <div class="column column-3 col-sm-4">
-        <div class="card-2">
-          <div class="card-profile">
-            <div class="profile-photo" style="background-image: url('images/member-1.jpg')" ></div>
-              <div class="card-details">
-                <p>Harry Sahir </p> 
-              <span>
-                <i class="fa fa-star" aria-hidden="true"></i> 
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star" aria-hidden="true"></i>
-              <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
-              </span>
-              </div>
-
-              </div>
-              <div >
-                <p class="para-txt">  <span class="span-txt">$12</span>/hr </p>
-                <button class="card-2-btn"><i class="far fa-heart"></i></button>
-                </div>
-        </div>
-      </div>
-
-</section>
-
-
-        
-      </div>
-    </div>
+		</div>
 
 
  <!--footer starts from here-->
  <footer class="footer">
-  <div class=" container bottom_border mb-5">
-    <div class="row">
-      <div class="col-sm-3">
-      
-      </div>
-
-      <div class="col-sm-3">
-        <h5 class="headin5_amrc col_white_amrc pt2">Useful links</h5>
-        <!--heading5_amrc-->
-        <ul class="footer_ul_amrc">
-          <li><a href="#">How to Hire (For Client)</a></li>
-          <li><a href="#">How to Find Work (for Member)</a></li>
-          <li><a href="#">Terms & Service</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Accessibility</a></li>
-        </ul>
-        <!--footer_ul_amrc ends here-->
-      </div>
-
-      <div class="col-sm-3">
-        <h5 class="headin5_amrc col_white_amrc pt2">Company</h5>
-        <!--heading5_amrc-->
-        <ul class="footer_ul_amrc">
-          <li><a href="#">About</a></li>
-          <li>
-            <a href="#">Contact us</a>
-          </li>
-          <li><a href="#">Trust & Safety</a></li>
-          <li><a href="#">UK Modern Slavery Act</a></li>
-        </ul>
-        <!--footer_ul_amrc ends here-->
-      </div>
-
-      <div class="col-sm-3">
-        <h5 class="headin5_amrc col_white_amrc pt2">Resources</h5>
-        <!--heading5_amrc ends here-->
-
-        <ul class="footer_ul_amrc">
-          <li><a href="#">Trust & Safety</a></li>
-
-          <li><a href="#">Trust & Safety</a></li>
-          <li><a href="#">Trust & Safety</a></li>
-        </ul>
-        <!--footer_ul2_amrc ends here-->
-      </div>
-    </div>
+	<div class=" container bottom_border mb-5">
+	  <div class="row">
+		<div class="col-sm-3">
+		
+		</div>
+  
+		<div class="col-sm-3">
+		  <h5 class="headin5_amrc col_white_amrc pt2">Useful links</h5>
+		  <!--heading5_amrc-->
+		  <ul class="footer_ul_amrc">
+			<li><a href="#">How to Hire (For Client)</a></li>
+			<li><a href="#">How to Find Work (for Member)</a></li>
+			<li><a href="#">Terms & Service</a></li>
+			<li><a href="#">Privacy Policy</a></li>
+			<li><a href="#">Accessibility</a></li>
+		  </ul>
+		  <!--footer_ul_amrc ends here-->
+		</div>
+  
+		<div class="col-sm-3">
+		  <h5 class="headin5_amrc col_white_amrc pt2">Company</h5>
+		  <!--heading5_amrc-->
+		  <ul class="footer_ul_amrc">
+			<li><a href="#">About</a></li>
+			<li>
+			  <a href="#">Contact us</a>
+			</li>
+			<li><a href="#">Trust & Safety</a></li>
+			<li><a href="#">UK Modern Slavery Act</a></li>
+		  </ul>
+		  <!--footer_ul_amrc ends here-->
+		</div>
+  
+		<div class="col-sm-3">
+		  <h5 class="headin5_amrc col_white_amrc pt2">Resources</h5>
+		  <!--heading5_amrc ends here-->
+  
+		  <ul class="footer_ul_amrc">
+			<li><a href="#">Trust & Safety</a></li>
+  
+			<li><a href="#">Trust & Safety</a></li>
+			<li><a href="#">Trust & Safety</a></li>
+		  </ul>
+		  <!--footer_ul2_amrc ends here-->
+		</div>
+	  </div>
+	</div>
+  
+	<div class="container bottom_border">
+	  <div class="row">
+		<div class="col-sm-3">
+		
+		</div>
+		<div class="col-sm-3">
+  
+		  <ul class=" social_footer_ul_amrc">
+			<li>  Find Us
+			</li>
+			<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+		<!--foote_bottom_ul_amrc ends here--> 
+		</div>
+	   
+		<div class="col-sm-3">
+		
+		</div>
+  
+		<div class="col-sm-3">
+  
+		  <ul class="social_footer_ul_amrc">
+			<li> Mobile App
+			</li>
+			  <li><a href="#"><i class="fa fa-apple"></i></a></li>
+			  <li><a href="#"><i class="fa fa-android"></i></a></li>
+			</ul>
+		</div>
+  
+	<!--social_footer_ul ends here-->
   </div>
-
-  <div class="container bottom_border">
-    <div class="row">
-      <div class="col-sm-3">
-      
-      </div>
-      <div class="col-sm-3">
-
-        <ul class=" social_footer_ul_amrc">
-          <li>  Find Us
-          </li>
-          <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          </ul>
-      <!--foote_bottom_ul_amrc ends here--> 
-      </div>
-     
-      <div class="col-sm-3">
-      
-      </div>
-
-      <div class="col-sm-3">
-
-        <ul class="social_footer_ul_amrc">
-          <li> Mobile App
-          </li>
-            <li><a href="#"><i class="fa fa-apple"></i></a></li>
-            <li><a href="#"><i class="fa fa-android"></i></a></li>
-          </ul>
-      </div>
-
-  <!--social_footer_ul ends here-->
-</div>
-
-  </div>
-
-  <div class="container">
-    <!--footer_bottom_ul_amrc ends here-->
-
-    <ul class="social_footer_ul">
-      <li>© 2021ArcOpenSpace</li>
-      <li>
-        <a href="wottaspace.com"> Powered | wottaspace.com </a>
-      </li>
-      <li>
-        <a href="wottaspace.com"><img src="images/Arc-Open-Space-App-logo.png" alt="" width="170"></a>
-
-      </li>
-    </ul>
-    <!--social_footer_ul ends here-->
-  </div>
-</footer>
-    
-
+  
+	</div>
+  
+	<div class="container">
+	  <!--footer_bottom_ul_amrc ends here-->
+  
+	  <ul class="social_footer_ul">
+		<li>© 2021ArcOpenSpace</li>
+		<li>
+		  <a href="wottaspace.com"> Powered | wottaspace.com </a>
+		</li>
+		<li>
+		  <a href="wottaspace.com"><img src="images/Arc-Open-Space-App-logo.png" alt="" width="170"></a>
+  
+		</li>
+	  </ul>
+	  <!--social_footer_ul ends here-->
+	</div>
+  </footer>
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="js/main.js"></script>
+		<!-- <script src="scripts.js"></script> -->
   </body>
 </html>
