@@ -1,0 +1,563 @@
+
+.nav-sidebar { 
+    width: 100%;
+    padding: 30px 0; 
+    border-right: 1px solid #ddd;
+}
+.nav-sidebar a {
+    color: #333;
+    -webkit-transition: all 0.08s linear;
+    -moz-transition: all 0.08s linear;
+    -o-transition: all 0.08s linear;
+    transition: all 0.08s linear;
+}
+.nav-sidebar .active a { 
+    cursor: default;
+    background-color: #0b56a8; 
+    color: #fff; 
+}
+.nav-sidebar .active a:hover {
+    background-color: #E50000;   
+}
+.nav-sidebar .text-overflow a,
+.nav-sidebar .text-overflow .media-body {
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis; 
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    #sidebar ul li.active > a {
+      font-size: 14px;
+      font-weight: bold;
+      background: #fff;
+      color: #3f69e3;
+    }
+    #sidebar .logo {
+      display: none;
+    }
+  
+    .collapse ul {
+      padding-left: 5px;
+    }
+  
+    .top-btn {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 0px;
+    }
+  
+    .search-input {
+      margin-left: 30px;
+      margin-right: 0px !important;
+      width: 250px !important;
+    }
+  
+    .search-input {
+      padding-left: 40px;
+      font-size: 1.3em;
+    }
+  
+    .input-list {
+      position: relative;
+    }
+  
+    .input-list i {
+      position: absolute;
+      left: 15px;
+      top: 15px;
+      font-size: 16px;
+      color: #c0c2c8;
+    }
+  }
+  
+  /* // Small devices (landscape phones, less than 768px) */
+  @media (max-width: 768px) {
+    #sidebar .logo {
+      display: none;
+    }
+    #sidebar ul li.active > a {
+      font-size: 14px;
+      font-weight: bold;
+      background: #fff;
+      color: #3f69e3;
+    }
+  
+    .collapse ul {
+      padding-left: 5px;
+    }
+  
+    .top-btn {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 0px;
+    }
+  
+    .search-input {
+      width: 370px;
+      margin-left: -250px !important;
+  
+      margin-right: -10px;
+    }
+  
+    .search-input {
+      padding-left: 40px;
+      font-size: 1.3em;
+    }
+  
+    .input-list {
+      position: relative;
+    }
+  
+    .input-list i {
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      font-size: 16px;
+      color: #c0c2c8;
+    }
+  }
+  
+  /* // Medium devices (tablets, less than 992px) */
+  @media (max-width: 991.98px) {
+  }
+  
+  /* // Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) {
+  }
+  
+  @media (max-width: 1280px) {
+    .top-btn {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 0px;
+    }
+  
+    .search-input {
+      margin-right: 0px;
+      margin-left: 0px !important;
+    }
+    .search-input {
+      padding-left: 40px;
+      font-size: 1.3em;
+    }
+  
+    .input-list {
+      position: relative;
+    }
+  
+    .input-list i {
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      font-size: 16px;
+      color: #c0c2c8;
+    }
+  }
+  
+  
+  /* Responsiveness for Modal styles for filter and location button ends */
+  
+  /* // Extra small devices (portrait phones, less than 576px) */
+  
+  
+  
+  @media (max-width: 575.98px) {
+    .explore-modal-input {
+      width: 300px !important;
+      height: 48px;
+    }
+  
+    .modal-header #filterModalLongTitle {
+      margin-left: -180px !important;
+    }
+  
+    .modal-header #locationModalLongTitle {
+      margin-left: -120px !important;
+    }
+  
+    .modal-header #close {
+      margin-left: -220px !important;
+    }
+  
+    .modal-header .close {
+      margin-left: -210px !important;
+    }
+  }
+  
+  /* // Small devices (landscape phones, less than 768px) */
+  @media (max-width: 768px) {
+    .explore-modal-input {
+      width: 180px !important;
+      height: 48px;
+    }
+  
+    .btn-done {
+      padding: 8px 71.5px 7.5px 71.5px;
+    }
+  
+    .modal-header #filterModalLongTitle {
+      margin-left: -40px !important;
+    }
+  
+    .modal-header #locationModalLongTitle {
+      margin-left: -40px !important;
+    }
+  
+    .modal-header #close {
+      margin-left: -70px !important;
+    }
+  
+    .modal-header .close {
+      margin-left: -80px !important;
+    }
+  
+    
+    .search-input {
+      padding-left: 20px !important;
+      font-size: 1.3em;
+    }
+  
+    .input-list {
+      position: relative;
+    }
+  
+    .input-list i {
+      margin-right: 2px !important;
+      position: absolute;
+      left: 15px;
+      top: 8px;
+      font-size: 16px;
+      color: #c0c2c8;
+    }
+  }
+  
+  /* // Medium devices (tablets, less than 992px) */
+  @media (min-width: 1024px) {
+    .explore-modal-input {
+      width: 250px;
+      height: 48px;
+    }
+  
+    .btn-done {
+      padding: 16px 71.5px 15px 71.5px;
+    }
+  
+    .modal-header #filterModalLongTitle {
+      margin-left: -150px !important;
+    }
+  
+    .modal-header #locationModalLongTitle {
+      margin-left: -100px !important;
+    }
+  
+    .modal-header #close {
+      margin-left: -120px !important;
+    }
+  
+    .modal-header .close {
+      margin-left: -180px !important;
+    }
+  }
+  
+  /* // Large devices (desktops, less than 1200px) */
+  @media (max-width: 1199.98px) {
+  }
+  
+  
+  
+  /* ----------- iPhone 4 and 4S ----------- */
+  
+  /* Portrait and Landscape */
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+  
+  }
+  
+  /* Portrait */
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+  }
+  
+  /* Landscape */
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+  
+  }
+  
+  /* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+  
+  /* Portrait and Landscape */
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+      #sidebar ul li.active > a {
+        font-size: 14px;
+        font-weight: bold;
+        background: #fff;
+        color: #3f69e3;
+      }
+      #sidebar .logo {
+        display: none;
+      }
+    
+      .collapse ul {
+        padding-left: 5px;
+      }
+    
+      .top-btn {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-right: 0px;
+      }
+    
+      .search-input {
+        margin-left: 30px;
+        margin-right: 0px !important;
+        width: 250px !important;
+      }
+    
+      .search-input {
+        padding-left: 40px;
+        font-size: 1.3em;
+      }
+    
+      .input-list {
+        position: relative;
+      }
+    
+      .input-list i {
+        position: absolute;
+        left: 15px;
+        top: 15px;
+        font-size: 16px;
+        color: #c0c2c8;
+      }
+  }
+  
+  /* Portrait */
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+  }
+  
+  /* Landscape */
+  @media only screen 
+    and (min-device-width: 320px) 
+    and (max-device-width: 568px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+  
+  }
+  
+  /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+  
+  /* Portrait and Landscape */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2) { 
+  
+  }
+  
+  /* Portrait */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) { 
+  
+  }
+  
+  /* Landscape */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 667px) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) { 
+  
+  }
+  
+  /* ----------- iPhone 6+, 7+ and 8+ ----------- */
+  
+  /* Portrait and Landscape */
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+  
+  }
+  
+  /* Portrait */
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+  
+  }
+  
+  /* Landscape */
+  @media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-width: 736px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+  
+  }
+  
+  /* ----------- iPhone X ----------- */
+  
+  /* Portrait and Landscape */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3) { 
+  
+  }
+  
+  /* Portrait */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+  
+  }
+  
+  /* Landscape */
+  @media only screen 
+    and (min-device-width: 375px) 
+    and (max-device-width: 812px) 
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: landscape) { 
+  
+  }
+  
+  /*==========  Mobile First Method  ==========*/
+  
+  /* Custom, iPhone Retina */ 
+  @media only screen and (min-width : 320px) {
+   
+  }
+  
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (min-width : 480px) {
+  
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+  
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (min-width : 992px) {
+  
+  }
+  
+  /* Large Devices, Wide Screens */
+  @media only screen and (min-width : 1200px) {
+  
+  }
+  
+  
+  
+  /*==========  Non-Mobile First Method  ==========*/
+  
+  /* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1200px) {
+  
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+  
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+  
+  }
+  
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+  
+  }
+  
+  /* Custom, iPhone Retina */ 
+  @media only screen and (max-width : 320px) {
+  
+  }
+  
+
+  /* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+
+/*==================== USE THIS QUERRIES==================== */
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* #Device = Tablets, Ipads (portrait)#Screen = B/w 768px to 1024px*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* #Device = Tablets, Ipads (landscape)#Screen = B/w 768px to 1024px*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* #Device = Low Resolution Tablets, Mobiles (Landscape)#Screen = B/w 481px to 767px*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
+}
+
+/* #Device = Most of the Smartphones Mobiles (Portrait)#Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+  
+}
