@@ -1,0 +1,841 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<title>Finances</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/finances.css">
+
+		<!-- <link rel="stylesheet" href="carousel.css"> -->
+
+  </head>
+  <body>
+		
+		<div class="wrapper d-flex align-items-stretch">
+			<nav id="sidebar" class="active">
+				<h3>  <a href="" class="logo"> <img src="images/Arc-Open-Space-App-logo.png" alt="" width="170"></a></h3>
+				<button type="button" id="sidebarCollapse" class="btn btn-primary">
+					<i class="fa fa-bars"></i>
+					<span class="sr-only">Toggle Menu</span>
+				  </button>
+
+				<ul class="list-unstyled components mb-5">
+         
+				<li class="active">
+					  <a class="nav-link" href="index.html" ><span><i class="fa fa-search"></i></span>Explore</a>
+					  
+				  </li>
+		  
+				   
+					<li>
+					  <a nav-link href="job-listings.html"><span><i class="fa fa-briefcase"></i></span>Job Listings</a> 
+				  </li>
+		  
+					<li>
+					  <a nav-link href="#"><span><i class="fa fa-comment" aria-hidden="true"></i></span>Chats</a>
+				  </li>
+		  
+					<li>
+					  <a nav-link href="finances.html"><span><i class="fa fa-eur" aria-hidden="true"></i></span>Finances</a>
+				  </li>
+		  
+					<li>
+					  <a nav-link href="#"><span><i class="fa fa-heart-o" aria-hidden="true"></i></span>Saved</a>
+				  </li>
+		  
+				  <li>
+					  <a nav-link href="#"><span><i class="fa fa-user"></i></span>Profile</a>
+				  </li>
+				  </ul>
+
+        <!-- <div class="footer">
+        	<p>
+					  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+					</p>
+        </div> -->
+    	</nav>
+
+        <!-- Page Content  -->
+      <div id="content" class="p-4 p-md-5">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <h2 style="color: #010D3F; margin-left: 0px; margin-right: 0px; font-weight: 700; font-size: 28px;
+            ">Finances</h2>
+            
+            
+            <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Explore</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="job-listings.html">Job Listings</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Chats</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="finances.html">Finances</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="#">Saved</a>
+                </li><li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+    
+
+<!-- YOUR CONTENYS HERE -->
+ <!-- Modal Paid -->
+  
+ <div class="modal fade" id="paidModalCenter" tabindex="-1" role="dialog" aria-labelledby="paidModalCenteTitle" aria-hidden="true" style="margin: 0 auto;">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          
+          <h4 class="modal-title" id="paidModalLongTitle">Talwar’s Residency</h4>
+  
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+  
+                <div class="col-12">
+                  <p class="modal-sub-title">£198.50</p>
+                </div>
+  
+  
+            <div class="col-12" >             
+                  <div class="modal-profile">
+                    <div class="modal-card-profile">
+                      <div class="profile-photo pro-photo-1" style="background-image: url('images/avatar-02.jpg')" ></div>
+                        <div class="modal-card-details">
+                          <p>Sameer Mahajan</p> 
+                        <span class="icon">
+                          <i class="fa fa-star" aria-hidden="true"></i> 
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                        </span>
+                        </div>
+        
+                        </div>
+                        <div >
+                        <p class="modal-para"><span style=" color: #3F69E3;">$20</span>/hr </p>
+                          </div>
+                  </div>
+            </div>
+            <div class="col-12 mt-5" >
+              <div class="modal-row">
+                <p class="para-1">Date Paid</p>
+                <p class="para-2">15th Jan, 2021</p>
+              </div>
+              </div>
+    
+  
+          <div class="col-12" >
+          <div class="modal-row">
+            <p class="para-1">Total hours</p>
+            <p class="para-2">20</p>
+          </div>
+          </div>
+  
+          <div class="col-12" >
+            <div class="modal-row">
+              <p class="para-1">Hourly Price</p>
+              <p class="para-2">£20/hr</p>
+            </div>
+            </div>
+  
+            <div class="col-12" >
+              <div class="modal-row">
+                <p class="para-1">Billing Period</p>
+                <p class="para-2">15th Jan - 16th Jan,2021</p>
+              </div>
+              </div>
+  
+              <div class="col-12" >
+                <div class="modal-row">
+                  <p class="para-2">Total Invoice Amount</h4>
+                  <p class="para-2">£195.84</p>
+                </div>
+                </div>
+  
+                <div id="modal-button">
+                
+                
+                <div class="col-12">
+                  <button  type="submit" class="btn-file-download btn-block">DOWNLOAD INVOICE</button> 
+              </div>
+                </div>
+                
+        </div>
+       
+      </div>
+    </div>
+  </div>
+  
+  <!-- MODALS Paid ENDS -->
+  
+  
+   <!-- Modal 2 -->
+   <div class="modal fade" id="unpaidModalCenter" tabindex="-1" role="dialog" aria-labelledby="unpaidModalCenterTitle" aria-hidden="true" style="margin: 0 auto;">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          
+          <h4 class="modal-title" id="unpaidModalLongTitle">Talwar’s Residency</h4>
+  
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+  
+          <div class="col-12">
+            <p style="visibility: hidden;" class="modal-sub-title">£198.50</p>
+          </div>
+  
+            <div class="col-12" >
+               
+                  <div class="modal-profile">
+                    <div class="modal-card-profile">
+                      <div class="profile-photo pro-photo-1" style="background-image: url('images/avatar-02.jpg')" ></div>
+                        <div class="modal-card-details">
+                          <p>Sameer Mahajan</p> 
+                        <span class="icon">
+                          <i class="fa fa-star" aria-hidden="true"></i> 
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o no-fill" aria-hidden="true"></i>
+                        </span>
+                        </div>
+        
+                        </div>
+                        <div >
+                        <p class="modal-para"><span style=" color: #3F69E3;">$20</span>/hr </p>
+                          </div>
+                  </div>
+            </div>
+          <div class="col-12" >
+          <div class="modal-row">
+            <p class="para-1">Total hours</p>
+            <p class="para-2">20</p>
+          </div>
+          </div>
+  
+          <div class="col-12" >
+            <div class="modal-row">
+              <p class="para-1">Hourly Price</p>
+              <p class="para-2">£20/hr</p>
+            </div>
+            </div>
+  
+            <div class="col-12" >
+              <div class="modal-row">
+                <p class="para-1">Billing Period</p>
+                <p class="para-2">15th Jan - 16th Jan,2021</p>
+              </div>
+              </div>
+  
+              <div class="col-12" >
+                <div class="modal-row">
+                  <p class="para-2">Total Invoice Amount</h4>
+                  <p class="para-2">£195.84</p>
+                </div>
+                </div>
+  
+                <div id="modal-button">
+                  <div class="col-12">
+                    <button  type="submit" class="btn-file-pay btn-block">PAY NOW</button> 
+                </div>
+  
+                
+                <div class="col-12">
+                  <button  type="submit" class="btn-file-download btn-block">DOWNLOAD INVOICE</button> 
+              </div>
+                </div>
+                
+        </div>
+      
+      </div>
+    </div>
+  </div>
+                <!-- MODALS 2 ENDS -->
+  
+
+
+                <div class="pt-0">
+                    <div class="container-fluid">
+                      <div class="row">
+          
+                        <div class="col-md-2 gutter-right_sect">
+                          <div
+                            class="nav flex-column nav-pills"
+                            id="v-pills-tab"
+                            role="tablist"
+                            aria-orientation="vertical"
+                          >
+                            <a
+                              class="nav-link linklist active"
+                              id="v-pills-active-tab"
+                              data-toggle="pill"
+                              href="#v-pills-active"
+                              role="tab"
+                              aria-controls="v-pills-active"
+                              aria-selected="true"
+                            >
+                              <span class="txt-1">Paid</span>
+                            </a>
+          
+                            <a
+                              class="nav-link linklist"
+                              id="v-pills-post-tab"
+                              data-toggle="pill"
+                              href="#v-pills-post"
+                              role="tab"
+                              aria-controls="v-pills-post"
+                              aria-selected="false"
+                            >
+                              <span class="txt-2">Unpaid</span>
+                            </a>
+          
+                          </div>
+                        </div>
+          
+                       
+                        <div class="col-md-10 gutter-left_sect">
+                          <div class="rightSect pt-5">
+                       <div class="d-flex">
+                            <div class="column_ col-sm-6">
+                              <div class="paid-profile">
+                                <p class="paid-items-1">Total Paid</p>
+                                <span id="paid-1">£1080</span>
+                                <p class="paid-date">20 jobs till jan 2020</p>
+                              </div>
+                            </div>
+                            <div class="column_ col-sm-6">
+                              <div class="paid-profile">
+                                <p class="paid-items-2">Funded</p>
+                                <span id="paid-2">£1080</span>
+                                <!-- <p class="" style="opacity: 0;">20</p> -->
+                              </div>
+                            </div>
+                        </div>
+          
+          
+                            <div class="tab-content" id="v-pills-tabContent">
+                              <div
+                                class="tab-pane active"
+                                id="v-pills-active"
+                                role="tabpanel"
+                                aria-labelledby="v-pills-active-tab"
+                              >
+                              <section style="margin-top: 30px">
+                                <h2>Paid</h2>
+                                <div class="col-12 member-row">
+                                  <p class="paid-row-txt">TRANSACTIONS</p>
+                                  <div class="selectParent">
+                                    <select >
+                                      <option >January</option>
+                                      <option >February</option>
+                                      <option >March</option>
+                                      <option >April</option>
+                                      <option >May</option>
+                                      <option >June</option>
+                                      <option >July</option>
+                                      <option >August</option>
+                                      <option >September</option>
+                                      <option >October</option>
+                                      <option >November</option>
+                                      <option >December</option>
+                                    </select>
+                                  </div>
+                                  
+                                </div>
+            
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <div class="paid-card-2">
+                                      <div class="member-row contract-row">
+                                        <p>Contract</p>
+                                        <p>15th Jan 2021</p>
+                                      </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <span>£129.98</span>
+                                      </div>
+                                      <div class="member-row">
+                                        <div class="card-profile" >
+                                          <div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+                                          <div class="member-details">
+                                            <p>
+                                              Sameer Mahajan
+                                            </p>
+                                            <span>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i
+                                                class="fa fa-star-o no-fill"
+                                                aria-hidden="true"
+                                              ></i>
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="div-invoice">
+                                          <span type="button" data-toggle="modal" data-target="#paidModalCenter" class="member-invoice">Invoice</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                  <div class="col-sm-6">
+                                    <div class="paid-card-2">
+                                      <div class="member-row contract-row">
+                                        <p>Contract</p>
+                                        <p>15th Jan 2021</p>
+                                      </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <span>£129.98</span>
+                                      </div>
+                                      <div class="member-row">
+                                        <div class="card-profile">
+                                          <div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+                                          <div class="member-details">
+                                            <p>
+                                              Sameer Mahajan
+                                            </p>
+                                            <span>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i
+                                                class="fa fa-star-o no-fill"
+                                                aria-hidden="true"
+                                              ></i>
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="div-invoice">
+                                          <span type="button" data-toggle="modal" data-target="#paidModalCenter" class="member-invoice">Invoice</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+            
+                              </section>
+            
+          
+                              <section style="margin-top: 10px">
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <div class="paid-card-2">
+                                      <div class="member-row contract-row">
+                                        <p>Contract</p>
+                                        <p>15th Jan 2021</p>
+                                      </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <span>£129.98</span>
+                                      </div>
+                                      <div class="member-row">
+                                        <div class="card-profile">
+                                          <div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+                                          <div class="member-details">
+                                            <p>
+                                              Sameer Mahajan
+                                            </p>
+                                            <span>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i
+                                                class="fa fa-star-o no-fill"
+                                                aria-hidden="true"
+                                              ></i>
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="div-invoice">
+                                          <span type="button" data-toggle="modal" data-target="#paidModalCenter" class="member-invoice">Invoice</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                  <div class="col-sm-6">
+                                    <div class="paid-card-2">
+                                      <div class="member-row contract-row">
+                                        <p>Contract</p>
+                                        <p>15th Jan 2021</p>
+                                      </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <span>£129.98</span>
+                                      </div>
+                                      <div class="member-row">
+                                        <div class="card-profile">
+                                          <div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+                                          <div class="member-details">
+                                            <p>
+                                              Sameer Mahajan
+                                            </p>
+                                            <span>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i
+                                                class="fa fa-star-o no-fill"
+                                                aria-hidden="true"
+                                              ></i>
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="div-invoice">
+                                          <span type="button" data-toggle="modal" data-target="#paidModalCenter" class="member-invoice">Invoice</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+            
+                              </section>
+                              </div>
+          
+                              <div
+                                class="tab-pane"
+                                id="v-pills-post"
+                                role="tabpanel"
+                                aria-labelledby="v-pills-post-tab"
+                              >
+                              <section style="margin-top: 30px">
+                                <h2>Unpaid</h2>
+                                <div class="col-12 member-row">
+                                  <p class=" unpaid-row-txt">TRANSACTIONS</p>
+                                  <div class="selectParent">
+                                    <select >
+                                      <option >January</option>
+                                      <option >February</option>
+                                      <option >March</option>
+                                      <option >April</option>
+                                      <option >May</option>
+                                      <option >June</option>
+                                      <option >July</option>
+                                      <option >August</option>
+                                      <option >September</option>
+                                      <option >October</option>
+                                      <option >November</option>
+                                      <option >December</option>
+                                    </select>
+                                  </div>
+                                </div>
+            
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <div class="unpaid-card-2">
+                                      <div class="member-row contract-row">
+                                        <p>Contract</p>
+                                        <p>15th Jan 2021</p>
+                                      </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <span>£129.98</span>
+                                      </div>
+                                      <div class="member-row">
+                                        <div class="card-profile" >
+                                          <div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+                                          <div class="member-details">
+                                            <p>
+                                              Sameer Mahajan
+                                            </p>
+                                            <span>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i
+                                                class="fa fa-star-o no-fill"
+                                                aria-hidden="true"
+                                              ></i>
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="div-invoice">
+                                          <span type="button" data-toggle="modal" data-target="#unpaidModalCenter" class="member-invoice">Invoice</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                  <div class="col-sm-6">
+                                    <div class="unpaid-card-2">
+                                      <div class="member-row contract-row">
+                                        <p>Contract</p>
+                                        <p>15th Jan 2021</p>
+                                      </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <span>£129.98</span>
+                                      </div>
+                                      <div class="member-row">
+                                        <div class="card-profile">
+                                          <div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+                                          <div class="member-details">
+                                            <p>
+                                              Sameer Mahajan
+                                            </p>
+                                            <span>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i
+                                                class="fa fa-star-o no-fill"
+                                                aria-hidden="true"
+                                              ></i>
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="div-invoice">
+                                          <span type="button" data-toggle="modal" data-target="#unpaidModalCenter" class="member-invoice">Invoice</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+            
+                              </section>
+            
+                              <section style="margin-top: 10px">
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <div class="unpaid-card-2">
+                                      <div class="member-row contract-row">
+                                        <p>Contract</p>
+                                        <p>15th Jan 2021</p>
+                                      </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <span>£129.98</span>
+                                      </div>
+                                      <div class="member-row">
+                                        <div class="card-profile">
+                                          <div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+                                          <div class="member-details">
+                                            <p>
+                                              Sameer Mahajan
+                                            </p>
+                                            <span>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i
+                                                class="fa fa-star-o no-fill"
+                                                aria-hidden="true"
+                                              ></i>
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="div-invoice">
+                                          <span type="button" data-toggle="modal" data-target="#unpaidModalCenter" class="member-invoice">Invoice</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+            
+                                  <div class="col-sm-6">
+                                    <div class="unpaid-card-2">
+                                      <div class="member-row contract-row">
+                                        <p>Contract</p>
+                                        <p>15th Jan 2021</p>
+                                      </div>
+                                      <div class="member-row">
+                                        <h4>Talwar’s Residency</h4>
+                                        <span>£129.98</span>
+                                      </div>
+                                      <div class="member-row">
+                                        <div class="card-profile">
+                                          <div class="profile-photo" style="background-image: url('images/avatar-02.jpg')" ></div>
+                                          <div class="member-details">
+                                            <p>
+                                              Sameer Mahajan
+                                            </p>
+                                            <span>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i class="fa fa-star" aria-hidden="true"></i>
+                                              <i
+                                                class="fa fa-star-o no-fill"
+                                                aria-hidden="true"
+                                              ></i>
+                                            </span>
+                                          </div>
+                                        </div>
+                                        <div class="div-invoice">
+                                          <span type="button" data-toggle="modal" data-target="#unpaidModalCenter" class="member-invoice">Invoice</span>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+            
+                              </section>
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </div>
+          
+                        
+          
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+      </div>
+		</div>
+
+
+ <!--footer starts from here-->
+ <footer class="footer">
+	<div class=" container bottom_border mb-5">
+	  <div class="row">
+		<div class="col-sm-3">
+		
+		</div>
+  
+		<div class="col-sm-3">
+		  <h5 class="headin5_amrc col_white_amrc pt2">Useful links</h5>
+		  <!--heading5_amrc-->
+		  <ul class="footer_ul_amrc">
+			<li><a href="#">How to Hire (For Client)</a></li>
+			<li><a href="#">How to Find Work (for Member)</a></li>
+			<li><a href="#">Terms & Service</a></li>
+			<li><a href="#">Privacy Policy</a></li>
+			<li><a href="#">Accessibility</a></li>
+		  </ul>
+		  <!--footer_ul_amrc ends here-->
+		</div>
+  
+		<div class="col-sm-3">
+		  <h5 class="headin5_amrc col_white_amrc pt2">Company</h5>
+		  <!--heading5_amrc-->
+		  <ul class="footer_ul_amrc">
+			<li><a href="#">About</a></li>
+			<li>
+			  <a href="#">Contact us</a>
+			</li>
+			<li><a href="#">Trust & Safety</a></li>
+			<li><a href="#">UK Modern Slavery Act</a></li>
+		  </ul>
+		  <!--footer_ul_amrc ends here-->
+		</div>
+  
+		<div class="col-sm-3">
+		  <h5 class="headin5_amrc col_white_amrc pt2">Resources</h5>
+		  <!--heading5_amrc ends here-->
+  
+		  <ul class="footer_ul_amrc">
+			<li><a href="#">Trust & Safety</a></li>
+  
+			<li><a href="#">Trust & Safety</a></li>
+			<li><a href="#">Trust & Safety</a></li>
+		  </ul>
+		  <!--footer_ul2_amrc ends here-->
+		</div>
+	  </div>
+	</div>
+  
+	<div class="container bottom_border">
+	  <div class="row">
+		<div class="col-sm-3">
+		
+		</div>
+		<div class="col-sm-3">
+  
+		  <ul class=" social_footer_ul_amrc">
+			<li>  Find Us
+			</li>
+			<li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+			</ul>
+		<!--foote_bottom_ul_amrc ends here--> 
+		</div>
+	   
+		<div class="col-sm-3">
+		
+		</div>
+  
+		<div class="col-sm-3">
+  
+		  <ul class="social_footer_ul_amrc">
+			<li> Mobile App
+			</li>
+			  <li><a href="#"><i class="fa fa-apple"></i></a></li>
+			  <li><a href="#"><i class="fa fa-android"></i></a></li>
+			</ul>
+		</div>
+  
+	<!--social_footer_ul ends here-->
+  </div>
+  
+	</div>
+  
+	<div class="container">
+	  <!--footer_bottom_ul_amrc ends here-->
+  
+	  <ul class="social_footer_ul">
+		<li>© 2021ArcOpenSpace</li>
+		<li>
+		  <a href="wottaspace.com"> Powered | wottaspace.com </a>
+		</li>
+		<li>
+		  <a href="wottaspace.com"><img src="images/Arc-Open-Space-App-logo.png" alt="" width="170"></a>
+  
+		</li>
+	  </ul>
+	  <!--social_footer_ul ends here-->
+	</div>
+  </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+		<!-- <script src="scripts.js"></script> -->
+  </body>
+</html>
