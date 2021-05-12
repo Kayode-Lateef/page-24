@@ -1,0 +1,419 @@
+.finance-btn {
+  background-color: #4169E2;
+  border-radius: 32px;
+  border: 1px solid #979797;
+  padding: 23px 74px 22px 75px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 24px;
+  margin-right: -25px;
+
+}
+
+.finance-btn a{
+  color: #fff;
+
+}
+
+.finance-btn a:active{
+  color: #fff;
+
+}
+
+.finance-btn a:hover{
+  color: #fff;
+
+}
+
+/* Tab Styles */
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #ffffff2d !important;
+}
+
+#v-pills-tab .linklist {
+  position: relative !important;
+  padding: 20px 0px 40px !important;
+  border-bottom: 1px solid #dee2e6;
+  display: inline-block;
+  margin-left: 55px !important;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+#v-pills-tab .linklist span {
+  margin-left: -65px;
+}
+
+#v-pills-tab .linklist span.txt-2, #v-pills-tab .linklist span.txt-3 {
+    color: #061541;
+      font-size: 18px;
+      opacity: 0.5;
+    }
+
+
+#v-pills-tab .linklist span.txt-1 {
+  color: #061541;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+
+/* Tab styles Ends */
+
+.rightSect {
+  border-left: 1px solid #dee2e6;
+  padding-left: 25px;
+  min-height: 100vh;
+  margin-top: -20px;
+}
+
+.rightSect h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #010d3f;
+}
+
+.gutter-right_sect {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.gutter-left_sect {
+  padding-left: 0;
+}
+
+
+
+/* .member-column {
+  float: left;
+  width: 25%;
+  padding: 5px 0px;
+} */
+
+/* .member-column-2 {
+  float: left;
+  width: 30%;
+  padding: 5px 5px;
+} */
+
+
+
+.unpaid-card-2 {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px -10px;
+
+}
+
+.member-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+#member-row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.member-row-txt {
+  font-size: 10px;
+  color: #191d2a;
+  font-weight: 700;
+  opacity: 50%;
+  text-align: left;
+}
+
+.member-row .txt-money {
+  font-size: 14px;
+  color: #191d2a;
+  font-weight: 600;
+}
+
+.member-row .txt-completed {
+  font-size: 10px;
+  color: #46be00;
+  font-weight: 700;
+}
+
+.contract-row > .txt {
+  color: #191d2a;
+  font-size: 12px;
+  opacity: 50%;
+}
+
+.member-row h4 {
+  color: #191d2a;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.member-details p {
+  font-weight: bold;
+  color: #1a1e2b;
+}
+
+.member-details i {
+  font-size: 10px;
+  color: #ffbd52;
+}
+
+.member-details .no-fill {
+  color: black;
+}
+
+.member-details > p {
+  margin-bottom: 0;
+}
+
+.member-row .div-invoice {
+  margin-top: 10px;
+}
+
+.member-row .member-invoice {
+  font-size: 12px;
+  color: #4169e2;
+}
+
+.member-clock-p {
+  background-color: #ea961d13;
+
+  border-radius: 16px;
+  /* opacity: 10%; */
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.member-row > .member-clock-p {
+  font-size: 10px;
+  color: #ea961d;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.contract-row .member-clock-p > .member-clock {
+  margin-right: 10px;
+}
+
+.member-photo {
+  /* background-color: rgb(187, 10, 10); */
+  /* bottom: 50px;
+    position: absolute; */
+  display: flex;
+  align-items: center;
+}
+
+.member-location-p {
+  background-color: #2b1ee813;
+
+  border-radius: 16px;
+  /* opacity: 10%; */
+  padding: 5px 10px;
+}
+
+.member-row > .member-location-p {
+  color: #2c1dea;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 10px;
+}
+
+.contract-row .member-location-p > .member-location {
+  margin-right: 10px;
+}
+
+.member-photo-1 {
+  position: absolute;
+  z-index: 0;
+  border-radius: 50%;
+  border: 2px solid white;
+
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: transparent;
+  /* transition: all 0.3s ease; */
+  margin-right: 20px;
+}
+
+.member-photo-2 {
+  position: absolute;
+  z-index: 1;
+  left: 28px;
+  border-radius: 50%;
+  border: 2px solid white;
+
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: transparent;
+  /* transition: all 0.3s ease; */
+  margin-right: 10px;
+}
+
+.member-photo-3 {
+  position: absolute;
+  z-index: 3;
+  left: 41px;
+
+  border-radius: 50%;
+  border: 2px solid white;
+
+  height: 24px;
+  width: 24px;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: transparent;
+  /* transition: all 0.3s ease; */
+  margin-right: 10px;
+}
+
+.member-photo p {
+  color: #191d2a;
+  margin-left: 55px;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 767px) {
+    #content nav {
+        margin-top: 0px  !important;
+    }
+    
+  .rightSect {
+    border: none;
+  }
+
+  .rightSect h2 {
+    font-size: 28px;
+  }
+  
+  #v-pills-tab .linklist {
+    padding: 20px 0px;
+  }
+
+  .rightSect {
+    min-height: auto;
+  }
+ 
+  .rightSect {
+    padding-left: 15px;
+  }
+  .gutter-right_sect {
+    padding-right: 15px;
+  }
+  .linklist .txt {
+    font-size: 15px;
+  }
+
+  #v-pills-tab {
+    padding: 0px 0px 0px 40px;
+  }
+}
+
+
+
+/* =========================JOB LISTING PAGE============================== */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  #Device = Tablets, Ipads (portrait)#Screen = B/w 768px to 1024px*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .navbar h2{
+    margin-left: 0 !important;
+
+  }
+  
+  .finance-btn{
+    margin-left: -5px;
+  }
+  
+}
+
+/* 
+  #Device = Tablets, Ipads (landscape)
+  #Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .navbar h2{
+    margin-left: 0 !important;
+  }
+  .finance-btn{
+    margin-left: -5px;
+  }
+}
+
+/* 
+  #Device = Low Resolution Tablets, Mobiles (Landscape)#Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .navbar h2{
+    margin-left: 0 !important;
+  }
+  
+  .finance-btn{
+    padding: 23px 37px 22px 37.5px;
+    width: 170px;
+    margin-left: 5px;
+    margin-top: 0px !important;
+  }
+
+}
+
+/* 
+  #Device = Most of the Smartphones Mobiles (Portrait)
+  #Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .navbar h2{
+    margin-left: 0 !important;
+  }
+
+  .finance-btn{
+    padding: 12.5px 37px 11px 37.5px;
+    width: 170px;
+    margin-top: 0px !important;
+  }
+
+  
+}
+
+/* #Devices = Most of the Smartphones Mobiles (Portrait)  #Screen = B/w 320px to 479px */
+@media (min-width: 200px) and (max-width: 280px) {
+  .navbar h2{
+    margin-left: 0 !important;
+    font-size: 22px !important;
+
+  }
+
+  .finance-btn{
+    padding: 12.5px 37px 11px 37.5px !important;
+    width: 147px;
+    margin-top: 0px !important;
+  }
+
+}
+
