@@ -1,0 +1,606 @@
+.finance-btn {
+    background-color: #4169E2;
+    border-radius: 32px;
+    border: 1px solid #979797;
+    padding: 23px 74px 22px 75px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-right: -25px;
+  }
+
+
+
+/* Tab Styles */
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #ffffff2d !important;
+}
+
+#v-pills-tab .linklist {
+  position: relative !important;
+  padding: 20px 0px 40px !important;
+  border-bottom: 1px solid #dee2e6;
+  display: inline-block;
+  margin-left: 55px !important;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+#v-pills-tab .linklist span {
+  margin-left: -65px;
+}
+
+#v-pills-tab .linklist span.txt-2, #v-pills-tab .linklist span.txt-3 {
+    color: #061541;
+      font-size: 18px;
+      opacity: 0.5;
+    }
+
+
+#v-pills-tab .linklist span.txt-1 {
+  color: #061541;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+/* Tab styles Ends */
+
+.rightSect {
+    border-left: 1px solid #dee2e6;
+    padding-left: 25px;
+    min-height: 100vh;
+    margin-top: -20px;
+  }
+  
+  .rightSect h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #010d3f;
+  }
+  
+  .gutter-right_sect {
+    padding-right: 0;
+  }
+  .gutter-left_sect {
+    padding-left: 0;
+  }
+  
+  .paid-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: #fff;
+    box-shadow: 0 2px 4px #00000012;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 0 -10px 0 -10px;
+  }
+
+  .unpaid-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    background-color: #fff;
+    box-shadow: 0 2px 4px #00000012;
+    padding: 20px;
+    border-radius: 4px;
+    margin: 0 -10px 0 -10px;
+  }
+  
+  .paid-items-1{
+    color: #12142D;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  
+  .paid-items-2{
+    color: #12142D;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
+  .paid-profile #paid-1{
+    color: #46BE00;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
+  .unpaid-profile #paid-1{
+    color: #46BE00;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  .paid-profile #paid-2{
+    color: #4169E2 ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 36px;
+  }
+
+  .unpaid-profile #paid-2{
+    color: #4169E2 ;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 36px;
+
+  }
+  
+  .paid-profile .paid-date{
+    color: #1A1E2B;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: .5;
+  }
+
+  .unpaid-profile .paid-date{
+    color: #1A1E2B;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: .5;
+  }
+
+  /* .paid-column-left{
+    padding-left: 25px !important;
+
+  }
+
+  .paid-column-right{
+    padding-right: 25px !important;
+
+  }
+
+  .unpaid-column-left{
+    padding-left: 25px !important;
+    
+
+  }
+
+  .unpaid-column-right{
+    padding-right: 55px !important;
+
+
+  } */
+
+  .paid-card-2 {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0 -10px;
+
+  }
+  
+.unpaid-card-2 {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 0 -10px;
+
+  }
+  
+  .member-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .member-row .paid-row-txt{
+    font-size: 10px;
+    color: #191D2A;
+    font-weight: 700;
+    opacity: 50%;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 0;
+    margin-left: -14px; 
+    padding-bottom: 0 !important;
+  }
+  
+  .member-row .unpaid-row-txt{
+    font-size: 10px;
+    color: #191D2A;
+    font-weight: 700;
+    opacity: 50%;
+    text-align: left;
+    margin-top: 9px;
+    margin-bottom: 0;
+    margin-left: -14px; 
+    padding-bottom: 0 !important;
+   
+  }
+  
+  .member-row span{
+      font-size: 16px;
+      color: #9B9DA3;
+      font-weight: 700;
+      margin-top: -4px;
+  }
+  .contract-row > p:nth-child(1){
+      color: #BABBBF;
+      text-transform: uppercase;
+      font-size: 10px;
+      font-weight: 700;
+  }
+
+  .contract-row > p:nth-child(2){
+    color: #BABBBF;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 600;
+}
+  
+  .member-row h4{
+  color: #191D2A;
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: -4px;
+  }
+  
+  .member-details p{
+      font-weight: 700;
+       color: #1A1E2B;
+       font-size: 16px;
+  }
+  
+  .member-details i {
+      font-size: 10px;
+      color: #ffbd52;
+    }
+    
+  .member-details .no-fill {
+      color: #0000006e;
+  }
+  
+  .member-details > p {
+      margin-bottom: 0;
+    }
+    
+  .member-row .div-invoice {
+      margin-top: 20px;
+  
+  } 
+  .member-row .member-invoice{
+      font-size: 12px;
+      color: #4169E2;
+      font-weight: 400;
+  }  
+ 
+  .selectParent {
+    width: 92px;
+    height: 32px;
+    margin-bottom: 10px;
+    /* overflow: hidden; */
+  }
+  
+  .selectParent select {
+    background-color: #fff !important;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px #00000012;
+    border: none;
+    line-height: 1;
+    font-size: 12px;  
+    color: #191D2A; 
+    outline: none;
+    text-indent: 1px;
+    text-overflow: '';
+    width: 100px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 10px 33px 10px 16px;
+    background: transparent url("http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png") no-repeat 70px center;
+  }
+
+/* MODAL STYLES */
+
+
+
+.modal-header{
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row-reverse !important;
+    margin-top: 20px;
+    border-bottom: none !important;
+  }
+  
+  .modal-header .modal-title{
+    color: #1A1E2B;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0 auto !important;
+  }
+  
+  .modal-header .close{
+    color: #000000 !important;
+    margin-left: 0 !important;
+  }
+  
+/* --------------------- */
+  .modal-body .modal-sub-title{
+    color: #46BE00;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -5px;
+    margin-bottom: 20px;
+  }
+
+  /* --------------------- */
+
+  
+  .modal-profile{
+    background-color: #F5F7FD;
+    padding: 15px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+  }
+  
+  
+  
+  .modal-card-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .modal-card-profile .modal-card-details p{
+    margin-bottom: 0;
+   font-size: 16px;
+   color: #030318;
+   font-weight: 400;
+  
+  }
+ 
+  
+  .modal-profile i{
+    font-size: 10px;
+    color: #ffbd52;
+  }
+  
+  .modal-profile .no-fill {
+    color: #C0C2C8;
+  }
+  
+  
+  .modal-profile .modal-para{
+    font-size: 12px;
+    color: #8C8E94;
+    margin-bottom: 0;
+    margin-top: -10px;
+  }
+  
+  .modal-profile p > span{
+  color: #4169E2;
+  font-size: 12px;
+  font-weight: 600;
+  }
+  
+  .modal-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-bottom: 1px solid #D8D8D8;
+    margin-top: 10px;
+   
+  }
+  
+  
+  .pro-photo-1::after{
+    font-family: FontAwesome;
+    content: "\f111";
+    color: #46BE00;
+    font-size: 14px;
+    top: 23px;
+    padding: 30px;
+    position: relative;
+  }
+  
+  
+  
+  .modal-row .para-1{
+    color: #191D2A;
+    font-size: 14px;
+  }
+  
+  .modal-row .para-2{
+    color: #191D2A;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  #modal-button{
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  .btn-file-pay{
+    background-color: #46BE00 ;
+    box-shadow: 0 4px 8px 0 #00000023;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 16px 142.5px 15px 142.5px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    letter-spacing: 2px;
+  }
+  
+  
+  .btn-file-download{
+    background-color: #4169E2  ;
+    box-shadow: 0 2px 4px 0 #00000012;
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    padding: 16px 104px 15px 104px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    letter-spacing: 2px;
+  
+  }
+  
+  /* MODAL STYLES ENDS */
+    
+
+
+
+
+
+
+
+
+
+  
+/* MEDIA QUERIES */
+@media (max-width: 767px) {
+    #content nav {
+        margin-top: 0px  !important;
+    }
+    
+  .rightSect {
+    border: none;
+  }
+
+  .rightSect h2 {
+    font-size: 28px;
+  }
+  
+  #v-pills-tab .linklist {
+    padding: 20px 0px;
+  }
+
+  .rightSect {
+    min-height: auto;
+  }
+ 
+  .rightSect {
+    padding-left: 15px;
+  }
+  .gutter-right_sect {
+    padding-right: 15px;
+  }
+  .linklist .txt {
+    font-size: 15px;
+  }
+
+  #v-pills-tab {
+    padding: 0px 0px 0px 0px;
+  }
+
+.col-sm-6{
+  margin-top: 10px;
+}
+}
+
+
+/* =========================FINANCES PAGE============================== */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  #Device = Tablets, Ipads (portrait)#Screen = B/w 768px to 1024px*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .navbar h2{
+    margin-left: 0 !important;
+
+  }
+  
+  .finance-btn{
+    margin-left: -5px;
+  }
+  
+}
+
+/* 
+  #Device = Tablets, Ipads (landscape)
+  #Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .navbar h2{
+    margin-left: 0 !important;
+  }
+  .finance-btn{
+    margin-left: -5px;
+  }
+}
+
+/* 
+  #Device = Low Resolution Tablets, Mobiles (Landscape)#Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .navbar h2{
+    margin-left: 0 !important;
+  }
+  
+  .finance-btn{
+    padding: 23px 37px 22px 37.5px;
+    width: 170px;
+    margin-left: 5px;
+    margin-top: 0px !important;
+  }
+
+}
+
+/* 
+  #Device = Most of the Smartphones Mobiles (Portrait)
+  #Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .navbar h2{
+    margin-left: 0 !important;
+  }
+
+  .finance-btn{
+    padding: 12.5px 37px 11px 37.5px;
+    width: 170px;
+    margin-top: 0px !important;
+  }
+
+  
+}
+
+/* #Devices = Most of the Smartphones Mobiles (Portrait)  #Screen = B/w 320px to 479px */
+@media (min-width: 200px) and (max-width: 280px) {
+  .navbar h2{
+    margin-left: 0 !important;
+    font-size: 22px !important;
+
+  }
+
+  .finance-btn{
+    padding: 12.5px 37px 11px 37.5px !important;
+    width: 147px;
+    margin-top: 0px !important;
+  }
+
+}
