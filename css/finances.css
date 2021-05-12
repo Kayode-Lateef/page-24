@@ -125,7 +125,7 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 28px;
-    margin-bottom: 36px;
+    margin-bottom: 36.5px;
   }
 
   .unpaid-profile #paid-2{
@@ -511,96 +511,3 @@
 }
 
 
-/* =========================FINANCES PAGE============================== */
-
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  /* CSS */
-  
-}
-
-/* 
-  #Device = Tablets, Ipads (portrait)#Screen = B/w 768px to 1024px*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  .navbar h2{
-    margin-left: 0 !important;
-
-  }
-  
-  .finance-btn{
-    margin-left: -5px;
-  }
-  
-}
-
-/* 
-  #Device = Tablets, Ipads (landscape)
-  #Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  .navbar h2{
-    margin-left: 0 !important;
-  }
-  .finance-btn{
-    margin-left: -5px;
-  }
-}
-
-/* 
-  #Device = Low Resolution Tablets, Mobiles (Landscape)#Screen = B/w 481px to 767px
-*/
-
-@media (min-width: 481px) and (max-width: 767px) {
-  
-  .navbar h2{
-    margin-left: 0 !important;
-  }
-  
-  .finance-btn{
-    padding: 23px 37px 22px 37.5px;
-    width: 170px;
-    margin-left: 5px;
-    margin-top: 0px !important;
-  }
-
-}
-
-/* 
-  #Device = Most of the Smartphones Mobiles (Portrait)
-  #Screen = B/w 320px to 479px
-*/
-
-@media (min-width: 320px) and (max-width: 480px) {
-
-  .navbar h2{
-    margin-left: 0 !important;
-  }
-
-  .finance-btn{
-    padding: 12.5px 37px 11px 37.5px;
-    width: 170px;
-    margin-top: 0px !important;
-  }
-
-  
-}
-
-/* #Devices = Most of the Smartphones Mobiles (Portrait)  #Screen = B/w 320px to 479px */
-@media (min-width: 200px) and (max-width: 280px) {
-  .navbar h2{
-    margin-left: 0 !important;
-    font-size: 22px !important;
-
-  }
-
-  .finance-btn{
-    padding: 12.5px 37px 11px 37.5px !important;
-    width: 147px;
-    margin-top: 0px !important;
-  }
-
-}
